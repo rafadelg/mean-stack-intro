@@ -32,8 +32,8 @@ function peticionAjaxGenerica(){
     }
     // Vamos a ver las versiones específicas
     function pruebasConGetYPost(){
-        $.get("http://localhost:8080/ejemplo17-file_alojado_en_server.txt",resultadoGet);
-        $.post("http://localhost:8080/ejemplo17-file_alojado_en_server.txt",resultadoPost);
+        $.get("http://localhost:8080/ejemplo17-host_file_server.txt",resultadoGet);
+        $.post("http://localhost:8080/ejemplo17-host_file_server.txt",resultadoPost);
     }
     function resultadoGet(data,status){
         alert("Resultado: " + data);
