@@ -1,17 +1,18 @@
-BOOTSTRAP (proceso de instalación para trabajar en local)
-=========================================================
+#BOOTSTRAP
 Web de Bootstrap: http://getbootstrap.com/
 Versión (a 30-10-2016): 3.3.7
-
-1º Ir a: http://getbootstrap.com/getting-started/#download
-2º Hacer clic en: "Download Bootstrap"
-3º Descomprimir archivo bajado "bootstrap-3.3.7-dist.zip"
-4º Copiar todo su contenido (son 3 carpetas: css, js y fonts) en nuestra carpeta de trabajo
+#####Proceso de instalación para trabajar en local
+1. Ir a: http://getbootstrap.com/getting-started/#download
+2. Hacer clic en: "Download Bootstrap"
+3. Descomprimir archivo bajado "bootstrap-3.3.7-dist.zip"
+4. Copiar todo su contenido (son 3 carpetas: css, js y fonts) en nuestra carpeta de trabajo
 	Ejm (Linux): user@user-pc:~/repo/mean-stack-intro/javascript/ejemplo04-bootstrap$ <copiar aquí esas 3 carpetas>
-Notas:
-	- en adelante, en estas mismas carpetas, iremos colocando nuestros propios archivos CSS y JS
-	- y, en cada uno de mis archivos HTML, deberemos incluir -al ppio de la cabecera- el código q sigue:
 
+Notas:
+- en adelante, en estas mismas carpetas, iremos colocando nuestros propios archivos CSS y JS
+- y, en cada uno de mis archivos HTML, deberemos incluir -al ppio de la cabecera- el código q sigue:
+
+```[HTML]
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -34,16 +35,16 @@ Notas:
     <link rel="stylesheet" href="css/mi_propio_archivo_de_estilos.css>
 
     <script type="text/javascript" src="js/mi_archivo_javascript.js">
-
   </head>
   <body>
-    <div class="container">
-	<h1>Mi aplicación con Bootstrap"</h1>
+    <div class="container">   <!-- NOTA: esta etiqueta es importante para trabajar con Bootstrap-->
+		<h1>Mi aplicación con Bootstrap"</h1>
 	
-	*** resto de mi código ***
+			<!-- *** resto de mi código html y bootstrap***  -->
 	    
     </div>
   </body>
 </html>
+```
 
 

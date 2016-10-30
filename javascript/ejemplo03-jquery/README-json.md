@@ -1,24 +1,19 @@
-PROCESO PARA TRABAJAR CON JSON (1ª aproximación)
-================================================
+#PROCESO PARA TRABAJAR CON JSON (1ª aproximación)
 Web del proyecto q describe la especificación: http://www.json.org/
 
 Recursos necesarios para realizar las prácticas con JSON (inicialmente, en la carpeta de trabajo EJEMPLO03-JQUERY)
 
-a) Servidor JSON, necesario para q nuestro servidor Node pueda interactuar con él
-   Desde la consola del sistema:
-	1º Ir a nuestra carpeta de trabajo, Ejm (Linux): user@user-pc:~/repo/mean-stack-intro/javascript/ejemplo04-ejercicio03-jquery
-	2º Ejecuta (como admin): sudo npm install -g json-server. Ver nota (1)
-       	
-b) Recurso externo JSONPlaceholder (proporciona una API REST para pruebas), https://jsonplaceholder.typicode.com
-   Hay q considerar el verbo CRUD a usar y la ruta correspondte para las peticiones (Post, Comments, Albums, Photos, Users)
+**a) Servidor JSON** (necesario para q nuestro servidor Node pueda interactuar con él). Pasos (desde la consola del sistema):
+1. Ir a nuestra carpeta de trabajo. Ejm (Linux): user@user-pc:~/repo/mean-stack-intro/javascript/ejemplo04-ejercicio03-jquery
+2. Ejecutar (como admin): sudo npm install -g json-server. Ver nota **(1)**
 
-c) Recurso propio: personalizar nuestra API REST (hay q arracar el servidor Json indicándole el recurso)
+**b) Recurso externo JSONPlaceholder** (proporciona una API REST para pruebas), https://jsonplaceholder.typicode.com
+Hay q considerar el verbo CRUD a usar y la ruta correspondte para las peticiones (Post, Comments, Albums, Photos, Users)
+
+**c) Recurso propio:** personalizar nuestra API REST (hay q arracar el servidor Json indicándole el recurso)
    Ejm: json-server --watch ejemplo19-jq-ajax-json.json
-   
 
--------------------------------------------------------------------------------------------------   
-(1) Ejemplo de instalación, salida y comprobación de versión (Linux)
-  
+**(1)** Ejemplo de instalación, salida y comprobación de versión (Linux)
 user@user-pc:~/repo/mean-stack-intro/javascript/ejemplo03-jquery$ sudo npm install -g json-server
 
 /usr/bin/json-server -> /usr/lib/node_modules/json-server/bin/index.js
@@ -302,6 +297,3 @@ npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
 
 user@user-pc:~/repo/mean-stack-intro/javascript/ejemplo03-jquery$ json-server -version
 0.8.22
-
-
-
