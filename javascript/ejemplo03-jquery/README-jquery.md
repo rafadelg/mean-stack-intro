@@ -25,7 +25,7 @@ Ejm:
 </head>
 <body>
    
-   *** mi código http ***
+   *** mi código html ***
    
 </body>
 </html>
