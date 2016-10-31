@@ -1,17 +1,15 @@
 # PROCESO PARA TRABAJAR CON JQUERY
-Web de jQuery: https://jquery.com
+Web de jQuery: https://jquery.com/  
 Versión (a 30-10-2016): 3.1.1
 
-###Formas de trabajar:
-** a) En local (en nuestro servidor Node), siguiendo el procedimto descrito en: http://jquery.com/download/ **
-   
-** b) On-line **
-   - Todas las versiones se encuentran en: http://code.jquery.com/jquery/
-   - Hay una versión simplificada (**trabajaremos con ella**): http://code.jquery.com/jquery-latest.min.js
-   Para ello, colocar en la cabecera de nuestro HTML esa ruta
-   *Nota: mis archivos jQuery irán en la carpeta /js (junto con los javascript "puros") de nuestro proyecto.*
-   
-**Ejm:**
+####Formas de trabajar:
+**a) En local**, procedimiento: http://jquery.com/download/  
+**b) On-line**, versiones disponibles: http://code.jquery.com/jquery/  
+Nosotros trabajaremos *on-line*, con una **versión simplificada**. ¿Cómo?
+- indicando en la cabecera de mi HTML esa versión [http://code.jquery.com/jquery-latest.min.js]
+- ubicando mis archivos jQuery en la carpeta /js (junto a los javascript "puros") de nuestro proyecto.
+
+**Ejemplo**
 ```[HTML]
 <!DOCTYPE html>
 <html lang="en">
