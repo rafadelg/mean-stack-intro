@@ -8,6 +8,7 @@ import {HelloComponent} from './hello';
   selector: 'fountain-root',
   template: '<router-outlet></router-outlet>'
 })
+
 export class RootComponent {}
 
 export const routes: Routes = [
