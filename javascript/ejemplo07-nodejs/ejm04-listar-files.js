@@ -26,10 +26,10 @@ function operacionPorFile(fichero){         // 3º opero/proceso
     console.log("Fichero normal: " + fichero);
   }
 }
-// otra forma (lo mismo: con funciones "landa"????????
+// otra forma (igual: con funciones lambda)
 fs.readDir(directorio, (error, ficheros) => {
   if (error) {
-    console.error ("ERROR - \n", error);
+    console.error ("ERROR:\n", error);
     // return 2; 
   }
   else{
@@ -42,15 +42,3 @@ fs.readDir(directorio, (error, ficheros) => {
       });
   }
 });
-// EJECUCIÓN (command line): $ node ejm04-listar-ficheros.js . .js
-
-/*
-    TODO: recordar -en JS- finalización resultados 
-    RECORDAR: cómo funciona Ajax
-
-    Esta e la forma de trabajar, respetando el asincronismo. Es decir, debemos evitar que cualquier
-    recurso/petición/usuario/etc quede detenido (bloqueado) 
-
-    SIMILITUD: función que procese los datos de entrada, con: discrimación, parseo, ....
-
-*/

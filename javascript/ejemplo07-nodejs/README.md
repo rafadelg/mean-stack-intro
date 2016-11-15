@@ -13,7 +13,7 @@ Documentación API's disponibles: https://nodejs.org/dist/latest-v6.x/docs/api/
 
 ####Recordatorio: npmjs, gestión de paquetes
 Funcionamto/formas de trabajar  
-- Local (a nivel de proyecto) package.josn file / npm install / npm install - - safe  
+- Local (a nivel de proyecto) package.json file / npm install / npm install  - - safe  
 - Local (integrados en Code)  
 - Global (sistema/usuario), vía npm -g install  
 

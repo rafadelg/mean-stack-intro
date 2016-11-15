@@ -1,7 +1,10 @@
+const fs = require('fs');
+let fichero = process.argv[3];
+fs.readFile(fichero, miFuncionAsincrona);
 function miFuncionAsincrona(error,contenido){
   if (! error) {
     let numDeFilas = contenido.toString().split('\n').length;
-    console.log("Fhero: " + fichero + "\nLineas: " + numDeFilas);
+    console.log("Fichero: " + fichero + "\nLineas: " + numDeFilas);
   }
   else {
     console.log("ERROR: ");
@@ -9,9 +12,3 @@ function miFuncionAsincrona(error,contenido){
     console.error(errorMsg, error);
   }
 }
-
-const fs = require('fs');
-let fichero = process.argv[3];
-/*let contenido =
-fs.readFileSync(fichero); */
-fs.readFile(fichero, miFuncionAsincrona);

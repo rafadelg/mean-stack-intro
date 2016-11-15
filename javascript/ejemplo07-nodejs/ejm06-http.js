@@ -1,4 +1,4 @@
-let http = require ("http");
+const http = require ("http");
 http.get("http://www.google.es", (respuesta)=>{
     respuesta.setEncoding("utf8");
     respuesta.on("data",console.log);

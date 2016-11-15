@@ -10,14 +10,12 @@ fs.readDir(directorio, (error, ficheros) => {
   }
   else{
     // 1º recorremos todos los ficheros: fíltra y añade una condición de filtro
-    ficheros.filter((fichero) => {
+    ficheros = ficheros.filter((fichero) => {
       return path.extname(fichero) === "." + extension; // 2º indicamos la condición de búsqueda
     });
     callback(null, ficheros); // le paso la lista de ficheros para que los procese 
   }
 });
-// EJECUCIÓN (command line): $ node ejm04-listar-ficheros.js . .js
-
 /* 
     Ejemplo ilustrativo:
 
@@ -37,6 +35,4 @@ fs.readDir(directorio, (error, ficheros) => {
       "author": "",
       "license": "ISC"
     }
-
-
 */

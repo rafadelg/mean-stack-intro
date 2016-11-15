@@ -7,7 +7,6 @@ let numDeFilas = contenido.toString().split('\n').length;
 console.log("Fichero: " + fichero + "\nLineas: " + numDeFilas);
 
 /*
-
 Formas de ejecución:
 a) Indicando en la consola el archivo a procesar
 C:\Users\manana\repo\testing\javascript\ejemplo07-nodejs>node ejm02-require.js "ejm02-require.js"
@@ -17,7 +16,5 @@ b) Indicadno el archivo a procesar en launch.json y, concretamte en:
 https://nodejs.org/api/fs.html
 
 https://nodejs.org/docs/latest/api/process.html
-
-
 
 */
