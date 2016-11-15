@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'] ,
   
 })
+
 export class AppComponent {
   title = 'hago otro cambio!';
   numerillo: number = 7;

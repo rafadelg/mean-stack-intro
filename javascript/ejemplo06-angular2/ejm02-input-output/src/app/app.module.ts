@@ -41,4 +41,5 @@ import { FormularioComponent } from './formulario/formulario.component';
   bootstrap: [FormularioComponent]
 
 })
+
 export class AppModule { }

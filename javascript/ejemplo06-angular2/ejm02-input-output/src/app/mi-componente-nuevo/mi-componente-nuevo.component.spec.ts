@@ -2,7 +2,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
-
 import { MiComponenteNuevoComponent } from './mi-componente-nuevo.component';
 
 describe('MiComponenteNuevoComponent', () => {
@@ -24,5 +23,6 @@ describe('MiComponenteNuevoComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
-  });
-});
+  })
+
+})

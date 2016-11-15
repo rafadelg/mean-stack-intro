@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './numeros-primos-leyenda.component.html',
   styleUrls: ['./numeros-primos-leyenda.component.css']
 })
+
 export class NumerosPrimosLeyendaComponent implements OnInit {
 
   mostrarInformacion: boolean = false;

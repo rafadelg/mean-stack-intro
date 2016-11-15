@@ -25,4 +25,5 @@ describe('NumerosPrimosPanelComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  
 });

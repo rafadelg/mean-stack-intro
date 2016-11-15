@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './ejemplo01-ngfor-ngif.component.html',
   styleUrls: ['./ejemplo01-ngfor-ngif.component.css']
 })
+
 export class Ejemplo01NgforNgifComponent implements OnInit {
 
   mostrarInformacion :boolean;

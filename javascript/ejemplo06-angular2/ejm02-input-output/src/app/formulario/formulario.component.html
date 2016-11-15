@@ -1,5 +1,7 @@
 <form #idForm="ngForm" (ngsubmit)="enviarFormulario(idForm.value)">
-  <label>Título requerido</label>
+  <label>
+    Título requerido
+  </label>
   <input type="text" #idTitulo="ngModel" name="nameTitulo" [hidden]="valid || pristine" [(ngModel)]="libro.name" required><br>
   <label>Tipo <i>Radio</i> Autor</label><br>
   <input type="radio" name="nameAutor" value="pepito" [(ngModel)]="libro.autor">Pepito<br>

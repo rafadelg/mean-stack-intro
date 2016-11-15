@@ -24,7 +24,6 @@ export class NumerosPrimosService {
     }
     return true;
   }
-
   esMultiploDeTres(numero: number): boolean{
     return numero % 3 == 0;
   }

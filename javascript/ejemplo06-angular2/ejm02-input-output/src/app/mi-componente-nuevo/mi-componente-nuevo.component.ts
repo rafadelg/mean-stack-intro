@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mi-componente-nuevo.component.css']
   //styles:[`p { background-color: red;}`]
 })
+
 export class MiComponenteNuevoComponent implements OnInit {
 
   constructor() { }

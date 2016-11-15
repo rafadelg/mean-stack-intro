@@ -10,10 +10,9 @@ export class Libro {
     ) {}
 
     toString():string {
+
         return ("Libro: \n\tTitulo: " + this.titulo +
                 "Autor: \n\tAutor: " + this.autor +
                 "Sinopsis: \nSinopsis: " + this.sinopsis);
     }
-
-
 }

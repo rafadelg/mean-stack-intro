@@ -49,5 +49,4 @@ eventoDeFilaRecibido(eventoRecibido: boolean): void{
   console.log("Evento recibido y tratado por el padre.")
 }
 
-
 }

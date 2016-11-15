@@ -16,6 +16,7 @@ export class FormularioComponent implements OnInit {
 
   ngOnInit() {
   }
+  
   enviarFormulario(formulario: any){
     console.log("Datos del formulario enviado: " + formulario);
     console.log("Libro: " + this.libro);

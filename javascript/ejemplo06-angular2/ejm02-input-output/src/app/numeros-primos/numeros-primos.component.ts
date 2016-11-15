@@ -42,8 +42,10 @@ export class NumerosPrimosComponent implements OnInit {
         return "blue"; 
       }
   }
+
   ngOnInit() {
   }
+  
   cambiarEstadoInformacion():void{
     this.mostrarInformacion = !this.mostrarInformacion;
   }

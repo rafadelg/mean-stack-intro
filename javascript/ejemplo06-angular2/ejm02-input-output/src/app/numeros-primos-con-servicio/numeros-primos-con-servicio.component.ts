@@ -11,6 +11,7 @@ import { NumerosPrimosService } from '../numeros-primos.service';
   providers: [NumerosPrimosService]
   // providers: [NumerosPrimosService, OtroNuevoServicio]
 })
+
 export class NumerosPrimosConServicioComponent implements OnInit {
 
   listaDeNumeros: number[];
@@ -32,8 +33,10 @@ export class NumerosPrimosConServicioComponent implements OnInit {
         return "blue"; 
       }
   }
+
   ngOnInit() {
   }
+
   cambiarEstadoInformacion():void{
     this.mostrarInformacion = !this.mostrarInformacion;
   }
