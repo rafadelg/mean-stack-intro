@@ -2,7 +2,7 @@ const https = require('https');
 const fs = require('fs');
 
 const options = {
-  pfx: fs.readFileSync("./test/keys/Mozilla-MCSHOLINGTEST.pfx")
+  pfx: fs.readFileSync("test/keys/Mozilla-MCSHOLINGTEST.pfx")
 };
 
 https.createServer(options, (request, response) => {
