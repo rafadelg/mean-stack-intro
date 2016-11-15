@@ -1,4 +1,4 @@
-const http = require ("http");
+const http = require ('http');
 http.get("http://www.google.es", (respuesta)=>{
     respuesta.setEncoding("utf8");
     respuesta.on("data",console.log);
@@ -9,5 +9,7 @@ http.get("http://www.google.es", (respuesta)=>{
     http.get("http://recurso_erroneo_innacesible", (respuesta)=>{
         ...
     respuesta.on("error", console.error); TODO: tratamto
+
+    API Nodejs: https://nodejs.org/dist/latest-v6.x/docs/api/http.html
     
 */

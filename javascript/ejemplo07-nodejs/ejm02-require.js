@@ -2,7 +2,8 @@
 const fs = require('fs');
 //let fichero = process.args;
 let fichero = process.argv[2];  // sacar la info de los parámtros de entrada para luego procesarlos
-let contenido = fs.readFileSync(fichero); // TODO: mirar formato
+//fs.readFileSync(file[, options])
+let contenido = fs.readFileSync(fichero);
 let numDeFilas = contenido.toString().split('\n').length;
 console.log("Fichero: " + fichero + "\nLineas: " + numDeFilas);
 
@@ -13,8 +14,6 @@ C:\Users\manana\repo\testing\javascript\ejemplo07-nodejs>node ejm02-require.js "
 b) Indicadno el archivo a procesar en launch.json y, concretamte en: 
   "args": [ "ejm02-require.js" ]
 
-https://nodejs.org/api/fs.html
-
-https://nodejs.org/docs/latest/api/process.html
+API Nodejs: https://nodejs.org/api/fs.html
 
 */

@@ -38,7 +38,71 @@
             "type": "node",
             "request": "launch",
             "args": [ ".", ".js" ]
-        },                      
+        },
+        {
+            "name": "Iniciar ejm05-files",
+            "program": "${workspaceRoot}/ejm05-listar-files-main.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Iniciar ejm05-modules",
+            "program": "${workspaceRoot}/ejm05-listar-files-module.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Iniciar ejm06",
+            "program": "${workspaceRoot}/ejm06-http.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Iniciar ejm07",
+            "program": "${workspaceRoot}/ejm07-http-pipe-bl.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Iniciar ejm08",
+            "program": "${workspaceRoot}/ejm07-http-async.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Iniciar ejm09",
+            "program": "${workspaceRoot}/ejm09-telnet-server.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Iniciar ejm10-http",
+            "program": "${workspaceRoot}/ejm10-http-server.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch",
+            "args": []
+        },
+        {
+            "name": "Iniciar ejm10-https",
+            "program": "${workspaceRoot}/ejm10-https-svr.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
         {
             "name": "Asociar al proceso",
             "type": "node",

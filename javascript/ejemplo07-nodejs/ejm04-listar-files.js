@@ -1,5 +1,5 @@
 const fs = require('fs');
-let path = require("path");
+let path = require('path');
 let directorio = process.arg[2];  // nombre/ruta del directorio
 let extesion = process.argv[3];   // extensión a buscar
 fs.readDir(directorio, operarConResultado); // 1º leo directorio
