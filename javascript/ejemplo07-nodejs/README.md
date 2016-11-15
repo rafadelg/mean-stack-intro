@@ -11,11 +11,11 @@ Versión (a 15-11-2016): v6.9.1 LTS (estable + soporte durable)
 Acceso a la API de un recurso (con el q voy a trabajar): **const miAPI = require ('nombre_de_la_API_del_Recurso');**  
 Documentación API's disponibles: https://nodejs.org/dist/latest-v6.x/docs/api/  
 
-#####Recordatorio: npmjs
+####Recordatorio: npmjs, gestión de paquetes
 Funcionamto/formas de trabajar  
 - Local (a nivel de proyecto) package.josn file / npm install / npm install - - safe  
 - Local (integrados en Code)  
-- Global (a todos), vía npm -g install  
+- Global (sistema/usuario), vía npm -g install  
 
 ######TODO: preparar la infraestructura y optimizarla (*file level*)
 - Carpeta: node_modules (importación de paquetes + dependencias)  
