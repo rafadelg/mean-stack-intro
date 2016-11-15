@@ -1,4 +1,4 @@
-# PROCESO PARA TRABAJAR CON JQUERY
+## PROCESO PARA TRABAJAR CON JQUERY
 Web de jQuery: https://jquery.com/  
 Versión (a 30-10-2016): 3.1.1
 
