@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Iniciar ejm01",
+            "program": "${workspaceRoot}/ejm01-nodejs-base.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+        },
+        {
+            "name": "Iniciar ejm02",
+            "program": "${workspaceRoot}/ejm02-require.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch",
+            "args": [
+                "ejm02-require.js", "ejm03-async.js"
+            ]
+        },
+        {
+            "name": "Iniciar ejm03",
+            "program": "${workspaceRoot}/ejm03-async.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch",
+            "args": [
+                "ejm02-require.js", "ejm03-async.js"
+            ]
+        },
+        {
+            "name": "Iniciar ejm04",
+            "program": "${workspaceRoot}/ejm04-listar-files.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch",
+            "args": [ ".", ".js" ]
+        },                      
+        {
+            "name": "Asociar al proceso",
+            "type": "node",
+            "request": "attach",
+            "port": 5858
+        }
+    ]
+}
