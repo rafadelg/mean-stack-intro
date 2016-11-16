@@ -4,6 +4,7 @@
   "description": "",
   "main": "",
   // "dependencies": { "bl": "^1.1.2" }
+  // through2-map
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
