@@ -1,3 +1,9 @@
+##ACLARACIONES
+Se han añadido ejemplos complementarios para facilitar la comprensión de la OO con TypeScript.  
+La fuente base del código se ha obtenido del [Curso de TypeScript - Lenguaje usado por Angular 2 | Udemy](https://www.udemy.com/curso-de-typescript-el-lenguaje-utilizado-por-angular-2/)  
+Igualmte, en el código de los ejemplos se han añadido comentarios para facilitar su comprensión y/o utilidad.  
+Tmbién, se recomiendan las lecturas de los archivos de configuración: launch.json, tasks.json, tsconfig.json (nota: no se suben los *maps* y archivos JS generados en el proceso de "transpilación")  Decir tiene q, podría resultar de utilidad la "ingeniería inversa"; es decir, analizar el código de los JS generados a partir de los archivos TS tanto en ECMA5 com en ECMA6, ello podría ayudar a entender mejor JS)  
+Las recomendaciones no deben tomarse como algo universal. Están basadas en las buenas prácticas de POO, el cumplimto de los estándares, la optimización de recursos y la experiencia de un humilde servidor.. Jeje
 ##Infraestructura necesaria  
 - Sistema operativo: MS Windows, Linux (eg Ubuntu o CentOS)
 - Entorno de ejecución para JS: Node.js (motor de JS de Google Chrome)
@@ -36,7 +42,7 @@ usr: usuario / cte: cliente / svr: servidor
 [2] J. Ubaldo, "TS y Code, post 29-10-2016 [on-line]", Blog José Ubaldo, Oct. 2016, Accedido en nov. 2016, disponible en  
 [haciendo clic aquí](https://joseucarvajal.wordpress.com/tag/typescript/) (apdos. "Pasos 2, 3 y 7")  
 [3] V. Pachón Álvarez, “Tema 1. Introducción a la Ingeniería de Requisitos", Apuntes asignatura de IR, pp. 4, Dpto. de TI de la ETSI, Universidad de Huelva, 2013.  
-[4] "La evolución del concepto en los escritos de Ed. Freeman [on-lie]",*Alumni newsletter*, no. 5, Nov. 2009. Accedido en marzo 2013, disponible [aquí](http://www.iese.edu/es/files/La%20evaluaci%C3%B3n%20del%20concepto%20de%20stakeholders%20seg%C3%BAn%20Freeman_tcm5-39688.pdf )
+[4] "La evolución del concepto en los escritos de Ed. Freeman [on-lie]",*Alumni newsletter*, no. 5, Nov. 2009. Accedido en marzo 2013, disponible [aquí](http://www.iese.edu/es/files/La%20evaluaci%C3%B3n%20del%20concepto%20de%20stakeholders%20seg%C3%BAn%20Freeman_tcm5-39688.pdf)
  
 
 

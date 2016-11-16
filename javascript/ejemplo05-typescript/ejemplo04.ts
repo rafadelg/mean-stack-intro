@@ -60,7 +60,7 @@ class Coche{
 	}
     */
     //Constructor explícitos; reciben parámetros a su llamada
-    //NOTA: TS no soporta múltiples constructores
+    //NOTA: TS no soporta múltiples constructores (no soporta sobrecarga)
     //Emulación: 
     constructor (color: string = null, modelo: string =  null, velocidad: number = null){
         if (color != null && color != ""){
@@ -87,7 +87,7 @@ class Coche{
     //q SIMPLIFICA sobremanera  -el acceso a-  y  -la modificación de-  las propiedades privadas.
     //TODO: lectura article http://www.typescriptlang.org/docs/handbook/classes.html (apdo. "Accessors"")
     
-    //4ª RECOMENDACIÓN (tras declarar el/los constructor/es; declacarar el resto de métodos)
+    //4ª RECOMENDACIÓN (tras declarar el constructor; declacarar el resto de métodos)
     //Por regla gral, los métodos q definen el comportamto de mis O's suelen ser públicos. Tiene sentido, pues
     //la manera de comportarse de un O indica como se desenvuelve en el mundo exterior -no están aislados!- :)
     public acelerar ():number{
