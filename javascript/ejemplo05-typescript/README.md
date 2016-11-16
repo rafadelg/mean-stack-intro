@@ -2,7 +2,8 @@
 Se han añadido ejemplos complementarios para facilitar la comprensión de la OO con TypeScript.  
 La fuente base del código se ha obtenido del [Curso de TypeScript - Lenguaje usado por Angular 2 | Udemy](https://www.udemy.com/curso-de-typescript-el-lenguaje-utilizado-por-angular-2/)  
 Igualmte, en el código de los ejemplos se han añadido comentarios para facilitar su comprensión y/o utilidad.  
-Tmbién, se recomiendan las lecturas de los archivos de configuración: launch.json, tasks.json, tsconfig.json (nota: no se suben los *maps* y archivos JS generados en el proceso de "transpilación")  Decir tiene q, podría resultar de utilidad la "ingeniería inversa"; es decir, analizar el código de los JS generados a partir de los archivos TS tanto en ECMA5 com en ECMA6, ello podría ayudar a entender mejor JS)  
+Tmbién, se recomiendan las lecturas de los archivos de configuración: launch.json, tasks.json, tsconfig.json (nota: no se suben los *maps* y archivos JS generados en el proceso de "transpilación")  
+Decir tiene q, podría resultar de utilidad la "ingeniería inversa"; es decir, analizar el código de los JS generados a partir de los archivos TS tanto en ECMA5 com en ECMA6, ello podría ayudar a entender mejor JS)  
 Las recomendaciones no deben tomarse como algo universal. Están basadas en las buenas prácticas de POO, el cumplimto de los estándares, la optimización de recursos y la experiencia de un humilde servidor.. Jeje
 ##Infraestructura necesaria  
 - Sistema operativo: MS Windows, Linux (eg Ubuntu o CentOS)
@@ -18,8 +19,18 @@ Las recomendaciones no deben tomarse como algo universal. Están basadas en las 
   Nota: la versión de TS integrada (en la última version de Code -a 12-11-2016-) es **<** a la última versión NPM  
 - Adecuación/parametrización (puesta a punto)  
  - estructuración de proyectos (estructura de directorios/ficheros dentro de Code)  
+   projectRoot  
+   ├── .vscode  
+   │      ├── tasks.json  
+   │      └── launch.json  
+   ├── jsEntrada  
+   │      ├── proyecto-a-migrar-1.js  
+   │      └── proyecto-a-migrar-2.js  
+   ├── jsSalida (los .js y *maps* generados)  
+   └── tsconfig.json  
  - automatización del proceso de "transpilación" (*transpiler*)  
 Operativa, como indican [1] y [2]  
+
 
 ## Glosario  
 Orientación a Objetos: paradigma q pretende modelar cualquier problemática -informática, claro- (eg. mi app web), tratando las entidades/actores/*stackholders* intervinientes como si fuesen objetos.  
