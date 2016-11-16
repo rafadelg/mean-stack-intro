@@ -169,7 +169,7 @@ class SerDos {
 //SerDos.instanceOf();
 //let serDos = new SerDos();
 let otra = "otra";
-let funcionAnonimaClasica = function (uno,dos){
+let funcionAnonimaClasica = function (uno, dos){ //uno:any, dos:any
     return uno + dos;
 }
 
@@ -257,7 +257,7 @@ class ArrayGenericDAO <T>{
 }
 
 var dao: DAOGenerico<Persona> = null;
-dao.add(new Persona("","",""));
+//TODO (error bug): dao.add(new Persona("","",""));
 
 // interfaz calculadora
 // control de la vista (ViewController)
@@ -308,3 +308,24 @@ function localizarNumero(){
 function resetearFormulario(){
 
 }
+
+console.log("Clase día 16-11-2016");
+let unaVariable:any = {}; //esto es un obj de tipo array (hay una clase q dice como crearlo)
+unaVariable.unNombre = "rafa"; //atributo
+unaVariable = {};
+console.log("nombre: " + unaVariable.unNombre);
+
+/*
+CONCEPTOS PASO POR REFERENCIA (objetos) vs. PASO POR VALOR (tipos primitivos)
+
+class Inm{              //emulación tipo primitivo
+	private v:number; 
+}
+tiene un comportamto same tipos primitivos -> copia por valor
+var num = 5;
+function tratarNumero(num){
+}
+var numTratado = tratarNumero (num){
+}
+
+*/

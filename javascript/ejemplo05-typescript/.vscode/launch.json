@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Iniciar",
+            "name": "Ejecutar app",
             "type": "node",
             "request": "launch",
             "program": "${workspaceRoot}/app.ts",
@@ -19,7 +19,133 @@
             },
             "console": "internalConsole",
             "sourceMaps": true,
-            "outDir": "${workspaceRoot}/jsScripts"
+            "outDir": "${workspaceRoot}/jsSalida"
+        },
+        {
+            "name": "Lanzar Chrome sobre localhost -raiz- (puerto de escucha 8080)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:8080",
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "name": "Lanzar ejemplo01 sobre localhost en Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:8080/ejemplo01.html",
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "name": "Lanzar ejemplo03 sobre localhost en Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:8080/ejemplo03.html",
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}"
+        },
+	    {
+            "name": "Ejecutar ejemplo01",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/ejemplo01.ts",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/jsSalida",
+            "outFiles": []
+        },
+	    {
+            "name": "Ejecutar ejemplo02",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/ejemplo02.ts",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/jsSalida"
+            //"outFiles": []
+        },
+	    {
+            "name": "Ejecutar ejemplo03",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/ejemplo03.ts",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/jsSalida"
+        },
+	    {
+            "name": "Ejecutar ejemplo04",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/ejemplo04.ts",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/jsSalida"
+        },        
+	    {
+            "name": "Ejecutar ejemplo05",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/ejemplo05.ts",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/jsSalida"
         }
     ]
 }
