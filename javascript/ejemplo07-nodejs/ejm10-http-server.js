@@ -8,3 +8,8 @@ function enviarImagen(request,response){
 }
 console.log("Servidor escuchando por el puerto 8888");
 server.listen(8888);
+/* 
+API Nodejs: https://nodejs.org/dist/latest-v6.x/docs/api/http.html
+
+
+*/

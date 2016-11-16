@@ -11,7 +11,7 @@ https.createServer(options, (request, response) => {
 }).listen(8000);
 console.log("Servidor escuchando por el puerto 8000");
 /* 
-API Nodejs: ttps://nodejs.org/dist/latest-v6.x/docs/api/https.html
+API Nodejs: https://nodejs.org/dist/latest-v6.x/docs/api/https.html
 
 TODO: generar un certificado auto-firmado
 https://help.ubuntu.com/lts/serverguide/certificates-and-security.html
