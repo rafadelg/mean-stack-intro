@@ -104,6 +104,14 @@
             //"args": []
         },
         {
+            "name": "Iniciar ejm11-http-post",
+            "program": "${workspaceRoot}/ejm11-http-post.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
             "name": "Asociar al proceso",
             "type": "node",
             "request": "attach",
