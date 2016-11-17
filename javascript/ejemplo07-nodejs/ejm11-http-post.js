@@ -1,6 +1,6 @@
-// Diferenciación el uso de verbos
+// Diferenciación uso de verbos
 const http = require ("http");
-map = require ("through2-map"); // mapear el cuerpo del msg
+const map = require ("through2-map"); // mapear cuerpo msg
 var server = http.createServer(function(request, response){
 
     if(request.method !== 'POST'){
@@ -17,10 +17,11 @@ var server = http.createServer(function(request, response){
 
 });
 server.list("8000");
+console.log("Servidor esperando peticiones por puerto 8000");
 
 /*
 API NPM: https://www.npmjs.com/package/through2-map
-Instalación en local (proyecto): npm install --save (package.json update)
+Instalación local (proyecto): npm install --save (package.json update)
 
 http.createServer([requestListener]): returns a new instance of http.Server.
 The requestListener is a function which is automatically added to the 'request' event.

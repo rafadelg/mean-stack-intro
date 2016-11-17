@@ -1,11 +1,13 @@
 {
-  "name": "mi_modulo",
+  "name": "modulos_ejm07_nodejs",
   "version": "0.0.1",
-  "description": "",
+  "description": "node_modules",
   "main": "",
-  // "dependencies": { "bl": "^1.1.2" }
-  // through2-map
-  "devDependencies": {},
+//  "dependencies": {
+//    "bl": "^1.1.2",
+//    "through2-map": "^3.0.0"
+//  },
+//  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
