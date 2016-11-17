@@ -15,7 +15,7 @@ Se trata de un proceso previo a la respuesta (antes de servir la petición), ejm
 - Auditoría (logs)
 - Atenticación (login)
 - acceso a datos (bbdd): procesamto previo  
-NOTA: abstraerse de las posibles utilidad; variopintas.. (entender bien "que/como"; el concepto)
+NOTA: abstraerse de las posibles utilidades; variopintas.. (entender bien "que/como"; el concepto)
  
 a) por url / petición  
    next(); para concatenación de manejadores/funciones, se coloca al final de la funcion  
