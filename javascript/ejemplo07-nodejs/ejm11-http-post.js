@@ -1,4 +1,4 @@
-// Diferenciación uso de verbos
+// Diferenciación uso de verbos: filtrado por POST
 const http = require ("http");
 const map = require ("through2-map"); // mapear cuerpo msg
 var server = http.createServer(function(request, response){
