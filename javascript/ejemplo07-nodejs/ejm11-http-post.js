@@ -1,6 +1,7 @@
 // Diferenciación uso de verbos: filtrado por POST
 const http = require ("http");
 const map = require ("through2-map"); // mapear cuerpo msg
+
 var server = http.createServer(function(request, response){
 
     if(request.method !== 'POST'){
@@ -26,7 +27,7 @@ Instalación local (proyecto): npm install --save (package.json update)
 http.createServer([requestListener]): returns a new instance of http.Server.
 The requestListener is a function which is automatically added to the 'request' event.
 
-Postam 4.8.3: chrome pluggin
+Postam 4.8.3: app chrome
 
 */
 

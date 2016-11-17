@@ -1,8 +1,8 @@
 {
-  "name": "modulos_ejm07_nodejs",
+  "name": "ejemplos_nodejs",
   "version": "0.0.1",
-  "description": "node_modules",
-  "main": "",
+  "description": "Bateria de ejemplos con nodejs",
+  "main": "ejm01-nodejs-base.js",
 //  "dependencies": {
 //    "bl": "^1.1.2",
 //    "through2-map": "^3.0.0"
