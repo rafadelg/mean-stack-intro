@@ -1,9 +1,9 @@
 //emular restful, json
-//enrutamiento url+verb
+//enrutamiento url/verb
 //proceso: 1-filtrar 2-procesar
 
 /*
-miURL, url_a_tratar
+miURL = url_a_procesar
 
 
 
