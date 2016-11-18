@@ -1,16 +1,12 @@
 {
-  "name": "ejemplos_nodejs",
-  "version": "0.0.1",
-  "description": "Bateria de ejemplos con nodejs",
-  "main": "ejm01-nodejs-base.js",
-//  "dependencies": {
-//    "bl": "^1.1.2",
-//    "through2-map": "^3.0.0"
-//  },
-//  "devDependencies": {},
+  "name": "ejemplo07-nodejs",
+  "version": "1.0.0",
+  "description": "Batería ejemplos nodejs",
+  "main": "ejm01-nodejs-base.js",  //entry point
+  //"directories": { "test": "test" }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "rafa delgado",
   "license": "ISC"
 }
