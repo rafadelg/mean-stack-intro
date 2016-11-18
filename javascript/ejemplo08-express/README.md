@@ -15,6 +15,7 @@ Se trata de un proceso previo a la respuesta (antes de servir la petición), ejm
 - Auditoría (logs)
 - Atenticación (login)
 - acceso a datos (bbdd): procesamto previo  
+- Monitorización: https://expressjs.com/en/advanced/pm.html
 NOTA: abstraerse de las posibles utilidades; variopintas.. (entender bien "que/como"; el concepto)
  
 a) por url / petición  
