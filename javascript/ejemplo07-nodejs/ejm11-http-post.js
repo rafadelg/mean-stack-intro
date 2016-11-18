@@ -14,9 +14,8 @@ var server = http.createServer(function(request, response){
             return chunk.toString().toUpperCase();
         })).pipe(response);
     }
-
-
 });
+
 server.list("8000");
 console.log("Servidor esperando peticiones por puerto 8000");
 
