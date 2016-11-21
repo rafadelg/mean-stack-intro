@@ -59,7 +59,7 @@ Que los componentes sean usados para gestionar el sistema, a parte de reproducir
 **Arquitectura Software (AASS)**: base para una correcta implementación del sistema. Implica la estructuración de sus componentes, cómo éstos interactúan y la estructura propia de datos que usan.  
 Desde el nivel más alto de abstracción, nos situa en el plano estratégico que hace posible alineación negocio/tecnología, estableciendo un puente entre los requisitos y el diseño [5].  
 **BBDD (Base de datos)**: Repositorio de almacenaje y estructuración de datos. Garantiza la persistencia de un sistema, eso es, que los datos permanezcan en el tiempo.  
-**Cluster**:  agrupamiento de servidores para aumentar la disponibilidad de servicio de un sistema o app. Cuando decimos que n-servidores son "clusterizables", es lo mismo que decir n-servidores en alta disponibilidad.  
+**Cluster**:  agrupamiento de servidores para aumentar la disponibilidad de servicio de un sistema. Cuando decimos que n-servidores son "clusterizables", es lo mismo que decir n-servidores en alta disponibilidad.    
 ***Framework***: entorno estandarizado de trabajo para abordar una problemática concreta, como pueda ser un desarrollo SW o la representación de una AASS.  
 **IS**: Ingeniería de Software. De manera simplona, campo de la informática que se encarga de aquello que no es tangible y, por ende, difícilmente medible; básicamente, el SW. Más formal, podríamos acercanos a la definición de la IEEE: "*aplicación de una estrategia sistemática, planificada y controlable (en lo posible) para el desarrollo, explotación y mantenimiento del software.*"  
 **IPO**: (interacción persona-ordenador). Proceso de diseño de sistemas interactivos centrados en el usuario [6].  
