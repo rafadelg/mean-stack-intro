@@ -1,11 +1,8 @@
-##ACLARACIONES
-Se han añadido ejemplos complementarios para facilitar la comprensión de la OO con TypeScript.  
-La fuente base del código se ha obtenido del [Curso de TypeScript - Lenguaje usado por Angular 2 | Udemy](https://www.udemy.com/curso-de-typescript-el-lenguaje-utilizado-por-angular-2/)  
-Igualmte, en el código de los ejemplos se han añadido comentarios para facilitar su comprensión y/o utilidad.  
-Tmbién, se recomiendan las lecturas de los archivos de configuración: launch.json, tasks.json, tsconfig.json (nota: no se suben los *maps* y archivos JS generados en el proceso de "transpilación")  
-Decir tiene q, podría resultar de utilidad la "ingeniería inversa"; es decir, analizar el código de los JS generados a partir de los archivos TS tanto en ECMA5 com en ECMA6, ello podría ayudar a entender mejor JS)  
-Las recomendaciones no deben tomarse como algo universal. Están basadas en las buenas prácticas de POO, el cumplimto de los estándares, la optimización de recursos y la experiencia de un humilde servidor.. Jeje
-##Infraestructura necesaria  
+###ACLARACIONES
+Carpeta con ejemplos de refuerzo para la comprensión de la OO con TypeScript.  
+El código y comentarios se han adaptado de la fuente [Curso de TypeScript - Lenguaje usado por Angular 2 | Udemy](https://www.udemy.com/curso-de-typescript-el-lenguaje-utilizado-por-angular-2/)  
+Para entender cómo funciona el entorno, se recomienda manejar los archivos de configuración: launch.json, tasks.json y tsconfig.json (Nota: no se suben los archivos .*maps* y .js generados por el *transpiler*). Igualmente, podría ser de utilidad consultar -localmente- esos .js (tanto en ES6 como ES5); ayudaría a conocer mejor JS. Buen resumen de las novedades de ES6 se puede consultar [aquí](http://es6-features.org/#Constants)  
+###Infraestructura necesaria  
 - Sistema operativo: MS Windows, Linux (eg Ubuntu o CentOS)
 - Entorno de ejecución para JS: Node.js (motor de JS de Google Chrome)
 - Browser: Chrome
@@ -13,13 +10,13 @@ Las recomendaciones no deben tomarse como algo universal. Están basadas en las 
   [recomenable] extensiones  
  - *TypeScript Toolbox* (de DSKWRK)  
  - *Debugger for Chrome* (de MS)  
-- TypeScript, se puede usar  
-  - el módulo (integrado) del propio Code  
-  - el módulo global, vía Gestor de paquetes de Node.js (NPM) -> *npm install **-g** typescript*  
-  Nota: la versión de TS integrada (en la última version de Code -a 12-11-2016-) es **<** a la última versión NPM  
-- Adecuación/parametrización (puesta a punto)  
- - estructuración de proyectos (estructura de directorios/ficheros dentro de Code)  
-   projectRoot  
+- TypeScript, se puede usar con el módulo  
+  - propio de Code (integrado en él)  
+  - del Gestor de paquetes de Node.js (NPM)  
+  Nota: la versión del módulo integrado (en la última ver. de Code -a 12-11-2016-) es **<** a la última ver. del módulo NPM  
+- Adecuación del entorno (puesta a punto)  
+ - Estructuración de proyectos (estructura de directorios/ficheros dentro de Code)  
+   /projectRoot  
    ├── .vscode  
    │      ├── tasks.json  
    │      └── launch.json  
@@ -27,33 +24,24 @@ Las recomendaciones no deben tomarse como algo universal. Están basadas en las 
    │      ├── proyecto-a-migrar-1.js  
    │      └── proyecto-a-migrar-2.js  
    ├── jsSalida (los .js y *maps* generados)  
-   └── tsconfig.json  
- - automatización del proceso de "transpilación" (*transpiler*)  
-Operativa, como indican [1] y [2]  
+   ├── tsconfig.json
+   └── .gitignore
+ - Automatizar el proceso de "transpilación". Operativa, como indican [1] y [2]  
 
-
-## Glosario  
-Orientación a Objetos: paradigma q pretende modelar cualquier problemática -informática, claro- (eg. mi app web), tratando las entidades/actores/*stackholders* intervinientes como si fuesen objetos.  
-*Stakeholder*: los *stakeholders* de un proyecto, son aquellas personas y/o entidades q tienen algún impacto o interés en éste y, ojo!, a pesar de q los usuarios siempre son *stakeholders*, NO todos los *stakeholders* son usrs [3]. Lectura complemtaria [4]  
-
-## Acrónimos  
-eg: por ejemplo  
+###Glosario
+Orientación a Objetos: paradigma q pretende modelar cualquier problemática informática, tratando las entidades/actores/*stackholders* intervinientes como si fuesen objetos.  
+*Stakeholder*: los *stakeholders* de un proyecto, son aquellas personas y/o entidades q tienen algún impacto o interés en éste. A pesar de q los usuarios siempre son *stakeholders*, NO todos los *stakeholders* son usrs [3]. Lectura complemtaria [4]  
 POO: programación orientada a objetos  
-O: objeto / O's: objetos  
-app: aplicación (informática)  
 G&S: métodos *setters* and *getters*  
 MS VS Code: Microsoft Visual Studio Code (en adelante, Code)  
-JS/ TS: JavaScript / TypeScript  
-TW: tecnologías web  
+JS / TS: JavaScript / TypeScript  
 usr: usuario / cte: cliente / svr: servidor  
 
-##Referencias  
-######Nota: citación según la guía de estilo y especificaciones de la asociación IEEE  
+###Referencias  
 [1] R. Gómez García, "Módulo 2: Introducción a las TW", Apuntes curso MEAN Stack, pp. 6-8, CFTIC-Getafe, Comunidad de Madrid, 2016  
-[2] J. Ubaldo, "TS y Code, post 29-10-2016 [on-line]", Blog José Ubaldo, Oct. 2016, Accedido en nov. 2016, disponible en  
-[haciendo clic aquí](https://joseucarvajal.wordpress.com/tag/typescript/) (apdos. "Pasos 2, 3 y 7")  
-[3] V. Pachón Álvarez, “Tema 1. Introducción a la Ingeniería de Requisitos", Apuntes asignatura de IR, pp. 4, Dpto. de TI de la ETSI, Universidad de Huelva, 2013.  
-[4] "La evolución del concepto en los escritos de Ed. Freeman [on-lie]",*Alumni newsletter*, no. 5, Nov. 2009. Accedido en marzo 2013, disponible [aquí](http://www.iese.edu/es/files/La%20evaluaci%C3%B3n%20del%20concepto%20de%20stakeholders%20seg%C3%BAn%20Freeman_tcm5-39688.pdf)
- 
+[2] J. Ubaldo, "TS y Code, post 29-10-2016 [on-line]", Blog José Ubaldo, Oct. 2016, acceso nov. 2016, disponible en  
+[aquí](https://joseucarvajal.wordpress.com/tag/typescript/) (apdos. "Pasos 2, 3 y 7")  
+[3] V. Pachón Álvarez, "Tema 1. Introducción a la Ingeniería de Requisitos", Apuntes asignatura IR, Dpto. TI de la ETSI, UHU, 2013.  
+[4] "La evolución del concepto en los escritos de Ed. Freeman [on-lie]", *Alumni newsletter*, no. 5, Nov. 2009. Accedido en marzo 2013, disponible [aquí](http://www.iese.edu/es/files/La%20evaluaci%C3%B3n%20del%20concepto%20de%20stakeholders%20seg%C3%BAn%20Freeman_tcm5-39688.pdf)  
 
 

@@ -3,8 +3,8 @@
         "target": "es6",
         "outDir": "./jsSalida",
         "sourceMap": true,
-        "removeComments": true
-        //"noImplicitAny": true  // con true: forzaría a tipar todas las declaraciones  
+        "removeComments": true,
+        "noImplicitAny": true  // true: forzaría a tipar todas las declaraciones  
         //"allowJs": true  // usado en proyectos de migración
     }
     //"include": [ "./jsEntrada/**/*" ] // usado en proyectos de migración
