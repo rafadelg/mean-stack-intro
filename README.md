@@ -21,7 +21,7 @@
 ![mean-stack](./images/img01-mean-stack.jpg)
 
 ###Aclaraciones
-Las líneas que siguen, son un compendio de información para situar al usuario en un nivel de abstracción, que se entiende necesario, antes de "aterrizar" en el plano operativo (programación).  
+Las líneas que siguen, son un compendio de información para situar al usuario en un nivel de abstracción, que se entiende necesario, antes de "aterrizar" en el plano operativo.  
 Para facilitar la lectura, al final, se ha añadido un apdo. de glosario y acrónimos, y otro de referencias. Se recomienda su consulta. Igualmente, se mantienen ciertos términos sin traducir, para no desvirtuarlos.  
 Las recomendaciones que se puedan dar, van orientadas a la utilización óptima de los recursos, las buenas prácticas de programación de acuerdo a sus paradigmas, el cumplimiento de estándares y, no menos importante, la experiencia. Dichas recomendaciones, no deben tomarse como universarles.  
 ###Introducción
@@ -38,7 +38,7 @@ Citamos algunas, no todas, de las disciplinas que abarca la IS:
 - Tecnologías de recuperación de información
 - Tecnologías de minería de datos y tecnologías de minería de textos  
   
-Por tanto, el problema fundamental al que se enfrenta el programador es la diversidad de tecnologías, debido a su complejidad y cómo se relacionan.  
+Por tanto, el problema fundamental al que se enfrenta el programador es la diversidad de tecnologías, su complejidad y cómo éstas se relacionan.  
 ###Alcance
 Se circunscribe a las tecnologías de la web y, más concretamente, al desarrollo de apps web SPA sobre el *framework MEAN Stack*; no siendo aquí necesarias cuestiones de usabilidad y rendimiento (que si lo son en apps del mundo real)
 ###Princípios generales de diseño
@@ -62,13 +62,13 @@ Desde el nivel más alto de abstracción, nos situa en el plano estratégico que
 **BBDD (Base de datos)**: Repositorio de almacenaje y estructuración de datos. Garantiza la persistencia de un sistema, eso es, que los datos permanezcan en el tiempo.  
 **Cluster**:  agrupamiento de servidores para aumentar la disponibilidad de servicio de un sistema o app. Cuando decimos que n-servidores son "clusterizables", es lo mismo que decir n-servidores en alta disponibilidad.  
 ***Framework***: entorno estandarizado de trabajo para abordar una problemática concreta, como pueda ser un desarrollo SW o la representación de una AASS.  
-**IS**: Ingeniería de Software. De manera simplona, es el campo de la informática que se encarga de aquello que no es tangible y, por ende, difícilmente medible; básicamente, el SW. Más formal, podríamos acercanos a la definición de la IEEE: "*aplicación de una estrategia sistemática, planificada y controlable (en lo posible) para el desarrollo, explotación y mantenimiento del software.*"  
+**IS**: Ingeniería de Software. De manera simplona, campo de la informática que se encarga de aquello que no es tangible y, por ende, difícilmente medible; básicamente, el SW. Más formal, podríamos acercanos a la definición de la IEEE: "*aplicación de una estrategia sistemática, planificada y controlable (en lo posible) para el desarrollo, explotación y mantenimiento del software.*"  
 **IPO**: (interacción persona-ordenador). Proceso de diseño de sistemas interactivos centrados en el usuario [6].
-**SPA** (*Single-page application*): interfaz web de una única página, compuesta de componentes individuales, modificables y/o sustituibles (sin afectar al resto); evitando la renderización a cada interacción del usuario con la app [7].  
+**SPA** (*Single-page application*): interfaz web de página única, compuesta de componentes individuales, modificables y/o sustituibles y, por consiguiente, evita la renderización a cada interacción del usuario con la app [7].  
 **SSDD**: sistema o entorno de computación distribuido. Conjunto de computadores, interconectados mediante una red, que comparten un estado global y parecen ser usados como un único sistema (ofrecen una visión de sistema único, *Single System Image o SSI*) [8]  
-**Sistema heredado**: sistema fundamental para la organización, creado hace tiempo, al que se han ido adaptando otros a su alrededor (monolítico; inextensible) y que, en la actualidad, se usa en un contexto distinto para el que fue diseñado.  
-**Usabilidad**: orientada a que el usuario tenga facilidad en el manejo de la app (con ausencia de incomodidad) y un elevado grado de satisfacción.
-***Wrapper***: usados en procesos de integración como bloques de contrucción básicos (*building blocks*). Elemento que proporciona una puerta de entrada a la app con la que se pretende interactuar. El acceso puede ser: a través de una interfaz (vía API “programática”), atacando directamente a la BBDD de la app (mientras ésta se ejecuta), o bien, a través de una tabla de servicios proporcionada por la propia app.  
+**Sistema heredado**: sistema fundamental para la organización, creado hace tiempo, al que se han ido adaptando otros a su alrededor (monolítico/inextensible) y que, en la actualidad, se usa en un contexto distinto para el que fue diseñado.  
+**Usabilidad**: orientada a que el usuario tenga facilidad en el manejo de la app (con ausencia de incomodidad) y un elevado grado de satisfacción.  
+***Wrapper***: usados en procesos de integración como bloques de contrucción básicos (*building blocks*). Elemento que proporciona una puerta de entrada a la app con la que se pretende interactuar. El acceso puede ser: a través de una interfaz (vía API “programática”), atacando directamente a la BBDD de la app, o bien, a través de una tabla de servicios proporcionada por la propia app.  
 ###Referencias
 Se recogen a modo de citas, siguiendo la guía de estilo y especificaciones de la asociación IEEE.  
   
