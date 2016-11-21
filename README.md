@@ -67,7 +67,7 @@ Desde el nivel más alto de abstracción, nos situa en el plano estratégico que
 **SSDD**: sistema o entorno de computación distribuido. Conjunto de computadores, interconectados mediante una red, que comparten un estado global y parecen ser usados como un único sistema (ofrecen una visión de sistema único, *Single System Image o SSI*) [8]  
 **Sistema heredado**: sistema fundamental para la organización, creado hace tiempo, al que se han ido adaptando otros a su alrededor (monolítico/inextensible) y que, en la actualidad, se usa en un contexto distinto para el que fue diseñado.  
 **Usabilidad**: orientada a que el usuario tenga facilidad en el manejo de la app (con ausencia de incomodidad) y un elevado grado de satisfacción.  
-***Wrapper***: usados en procesos de integración como bloques de contrucción básicos (*building blocks*). Elemento que proporciona una puerta de entrada a la app con la que se pretende interactuar. El acceso puede ser: a través de una interfaz (vía API “programática”), atacando directamente a la BBDD de la app, o bien, a través de una tabla de servicios proporcionada por la propia app.  
+**Wrapper**: usados en procesos de integración como bloques de contrucción básicos (*building blocks*). Elemento que proporciona una puerta de entrada a la app con la que se pretende interactuar. El acceso puede ser: a través de una interfaz (vía API “programática”), atacando directamente a la BBDD de la app, o bien, a través de una tabla de servicios proporcionada por la propia app.  
 ###Referencias
 Se recogen a modo de citas, siguiendo la guía de estilo y especificaciones de la asociación IEEE.  
   
