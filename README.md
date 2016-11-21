@@ -56,7 +56,7 @@ Que los componentes sean usados para gestionar el sistema, a parte de reproducir
 ###Glosario
 **Acoplamiento**: grado de interdependencia entre dos o más componentes SW o sistemas HW.  
 **App o sistema (en todo el documento)**: se referirá a nuestra aplicación web SPA.  
-**Arquitectura Software (AASS)**: base para una correcta implementación del sistema. Implica la estructuración de sus componentes, cómo éstos interactúan y la organización de datos que utilizan.  
+**Arquitectura Software (AASS)**: base para una correcta implementación del sistema. Implica la estructuración de sus componentes, cómo éstos interactúan y la estructura propia de datos que usan.  
 Desde el nivel más alto de abstracción, nos situa en el plano estratégico que hace posible alineación negocio/tecnología, estableciendo un puente entre los requisitos y el diseño [5].  
 **BBDD (Base de datos)**: Repositorio de almacenaje y estructuración de datos. Garantiza la persistencia de un sistema, eso es, que los datos permanezcan en el tiempo.  
 **Cluster**:  agrupamiento de servidores para aumentar la disponibilidad de servicio de un sistema o app. Cuando decimos que n-servidores son "clusterizables", es lo mismo que decir n-servidores en alta disponibilidad.  
