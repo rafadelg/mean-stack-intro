@@ -14,7 +14,6 @@
 - [expressjs](http://expressjs.com/)  
 
 #####Tecnologías de base de datos:
-- [BSON](http://bsonspec.org/)
 - [mongoosejs](http://mongoosejs.com/)
 - [mongoDB](https://www.mongodb.com/)
   
