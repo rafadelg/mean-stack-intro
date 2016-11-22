@@ -1,6 +1,6 @@
 # mean-stack-intro
 #####Batería incremental de ejemplos introductorios a [MEAN](http://mean.io/) (MongoDB, Express.js, AngularJS y Node.js)
-#####Código:
+#####Autoría:
 - Ruben Gómez García (autor del código)
 - Rafael Delgado Casanova (autor del código de las carpetas de refuerzo)
 
