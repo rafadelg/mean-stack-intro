@@ -1,14 +1,14 @@
-## PROCESO PARA TRABAJAR CON [JQUERY](http://jquery.com/)
+##[JQUERY](http://jquery.com/)
 
 ####Formas de trabajar:
 **a) En local**, [downloading jQuery](http://jquery.com/download/)  
 **b) On-line**    
   
-Nosotros trabajaremos usando la librería *on-line*, con una **versión simplificada**
+Nosotros trabajaremos con la librería *on-line*, usando una versión simplificada
 - indicando en la cabecera de mi HTML la ruta http://code.jquery.com/jquery-latest.min.js
 - y ubicando mis archivos jQuery en la carpeta /js de nuestro proyecto.
 
-**Ejemplo**
+####Ejemplo:
 ```[HTML]
 <!DOCTYPE html>
 <html lang="en">
