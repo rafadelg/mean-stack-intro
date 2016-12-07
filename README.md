@@ -11,10 +11,10 @@
 
 #####Tecnologías lado servidor:
 - [nodejs](https://nodejs.org/en/)
-- [expressjs](http://expressjs.com/)  
+- [expressjs](http://expressjs.com/)
+- [mongoosejs](http://mongoosejs.com/)  
 
 #####Tecnologías de base de datos:
-- [mongoosejs](http://mongoosejs.com/)
 - [mongoDB](https://www.mongodb.com/)
   
 ![mean-stack](./images/img01-mean-stack.jpg)
