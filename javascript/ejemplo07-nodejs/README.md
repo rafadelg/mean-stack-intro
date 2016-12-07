@@ -1,7 +1,7 @@
 ##[Node.js](http://nodejs.org/)
 Entorno de ejecución para JS basado en el [motor JS V8 de Chrome](https://developers.google.com/V8/)  
 *Event-based server-side javascript engine.*  
-Versión: v6.9.2 LTS (estable + soporte durable)  
+Versión: v6.9.2 LTS
 
 ####Características
 - Cliente/Servidor
