@@ -1,12 +1,10 @@
-## PROCESO PARA TRABAJAR CON JQUERY
-Web de jQuery: https://jquery.com/  
-Versión (a 30-10-2016): 3.1.1
+## PROCESO PARA TRABAJAR CON [JQUERY](http://jquery.com/)
 
 ####Formas de trabajar:
-**a) En local**,[*downloading jQuery](http://jquery.com/download/)  
+**a) En local**, [downloading jQuery](http://jquery.com/download/)  
 **b) On-line**    
   
-Nosotros trabajaremos *on-line*, con una **versión simplificada**
+Nosotros trabajaremos usando la librería *on-line*, con una **versión simplificada**
 - indicando en la cabecera de mi HTML la ruta http://code.jquery.com/jquery-latest.min.js
 - y ubicando mis archivos jQuery en la carpeta /js de nuestro proyecto.
 
