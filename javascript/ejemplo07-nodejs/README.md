@@ -10,5 +10,3 @@ Versión: 6.9.2 LTS
 
 Acceso a la API de un recurso (con el q voy a trabajar): **const myAPI = require ('apiResource');**  
 [Documentación API's](https://nodejs.org/dist/latest-v6.x/docs/api/)  
-
-
