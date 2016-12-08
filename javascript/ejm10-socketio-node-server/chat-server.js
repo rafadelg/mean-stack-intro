@@ -35,10 +35,8 @@ http.listen(3000,()=>{
 });
 
 /*
-tenemos dos componentes diferentes
 http -> recibe (rest)
         redirecciona -> socketio
-Doc.: http://socket.io/docs/
 
 http: send and forget (una sesión por usr), non-polling
 Las apps node, por defecto, no controlan info de sesión (ocupación memoria host)
@@ -48,8 +46,8 @@ Luego, esta circunstancia hay q considerarla.
     100     - 1 GB
     1000    - 10 GB
     ...     - !!!
-Eliminación de sesión de usr en el svr de apps. 
+Eliminación de sesión usr en svr de apps. 
 
-Los iosockets, resuelven esta problemática
-
+iosockets - resuelven esta problemática
+Doc.: http://socket.io/docs/
 */

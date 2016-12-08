@@ -7,14 +7,14 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Run chat server",
+            "name": "Run chat-server",
             "program": "${workspaceRoot}/chat-server.js",
             "cwd": "${workspaceRoot}"
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "Run Server",
+            "name": "Run nsp-server",
             "program": "${workspaceRoot}/server.js",
             "cwd": "${workspaceRoot}"
         }
