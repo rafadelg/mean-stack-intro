@@ -2,7 +2,7 @@
 ####Batería incremental de ejemplos introductorios a [MEAN](http://mean.io/) (MongoDB, Express.js, AngularJS y Node.js)
 ####Autoría:
 - Ruben Gómez García (autor del código)
-- Rafael Delgado Casanova (autor del código de las carpetas de refuerzo)
+- Rafael Delgado Casanova (autor del código de refuerzo salvo los *fuente* aludidos)
 
 ####Editor de código: [MS Visual Studio Code](https://code.visualstudio.com/)
 ####Tecnologías usadas del lado cliente:
