@@ -1,0 +1,22 @@
+<!-- raiz de mi proyecto
+
+-->
+<h1>
+  {{title}}
+</h1>
+<!-- distintas vistas; de los distintos componentes
+¿quien toma la decisión de pintar aquí?ng c
+Recomendación: Generación de los menús de navegación con Bootstrap
+
+-->
+<ul>
+  <li><a [routerLink]="['listar']">Lista de Libros</a></li>
+  <li><a [routerLink]="['consultar','1']">Consulta de libro</a></li>
+  <!--                 ['consultar',libro.id] -->
+  <li><a [routerLink]="['formulario']">Formulario</a></li>
+</ul>
+<router-outlet>
+
+
+
+</router-outlet>

@@ -1,0 +1,10 @@
+<p>
+  lista-libros works!
+  <tr *ngFor="let libro of libros">
+    <!-- TODO: check    -->
+    <td>
+      {{libro.titulo}} - <a [routerLink]="['/consultar',libro.id]">Consulta de libro</a>
+    </td>
+    
+  </tr>
+</p>
