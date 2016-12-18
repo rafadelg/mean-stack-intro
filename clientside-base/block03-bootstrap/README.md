@@ -1,5 +1,5 @@
 ##[BOOTSTRAP](http://getbootstrap.com/)
-####Proceso de instalación para trabajar en local
+###Proceso de instalación para trabajar en local
 1. Ir a: [click here](http://getbootstrap.com/getting-started/#download)
 2. Hacer clic en: "Download Bootstrap"
 3. Descomprimir archivo bajado "bootstrap-3.3.7-dist.zip". Nota: versión 3.3.7 (a 18-12-2016)
@@ -36,7 +36,7 @@ en cada uno de mis archivos HTML, deberemos incluir -al ppio de la cabecera- el 
     <div class="container">   <!-- NOTA: esta etiqueta es importante para trabajar con Bootstrap-->
 		<h1>Mi aplicación con Bootstrap"</h1>
 	
-			<!-- *** resto de mi código html y bootstrap***  -->
+			<!-- *** resto de código ***  -->
 	    
     </div>
   </body>
