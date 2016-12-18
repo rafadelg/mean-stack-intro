@@ -19,16 +19,16 @@ Nosotros trabajaremos con la librería *on-line*, usando una versión simplifica
 </head>
 <body>
   
-   <!-- mi código html -->
+   <!-- código html -->
   
 </body>
 </html>
 ```
 ####[jQuery sintax](http://www.w3schools.com/jquery/jquery_syntax.asp)
-Basic syntax is: $([selector]((http://www.w3schools.com/jquery/jquery_selectors.asp)).action()
-1. a $ sign to define/access jQuery
-2. a (selector) to "query (or find)" HTML elements
-3. a jQuery action() to be performed on the element(s)
+Basic syntax is: [$(selector]((http://www.w3schools.com/jquery/jquery_selectors.asp)).action()  
+1. a $ sign to define/access jQuery  
+2. a (selector) to "query (or find)" HTML elements  
+3. a jQuery action() to be performed on the element(s)  
   
 $(this).hide() - hides the current element  
 $("p").hide() - hides all **p** elements  
