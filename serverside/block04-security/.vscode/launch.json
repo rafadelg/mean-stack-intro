@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run standalone server",
+            "program": "${workspaceRoot}/exm-basic-security.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run security server",
+            "program": "${workspaceRoot}/exm-basic-server.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run Token server",
+            "program": "${workspaceRoot}/exm-jwt-server.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run OAuth server",
+            "program": "${workspaceRoot}/exm-oauth-server.js",
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
