@@ -1,0 +1,123 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run exm01-basic",
+            "program": "${workspaceRoot}/exm01-basic.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "name": "Run exm02-require",
+            "program": "${workspaceRoot}/exm02-require.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch",
+            "args": [
+                "exm02-require.js", "exm03-async.js"
+            ]
+        },
+        {
+            "name": "Run exm03-async",
+            "program": "${workspaceRoot}/exm03-async.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch",
+            "args": [
+                "exm02-require.js", "exm03-async.js"
+            ]
+        },
+        {
+            "name": "Run exm04-filelist",
+            "program": "${workspaceRoot}/exm04-filelist.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch",
+            "args": [ ".", ".js" ]
+        },
+        {
+            "name": "Run exm05-main-filelist",
+            "program": "${workspaceRoot}/exm05-filelist-main.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Run exm05-module-filelist",
+            "program": "${workspaceRoot}/ejmx5-module-filelist.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Run exm06-http",
+            "program": "${workspaceRoot}/exm06-http.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Run exm07-http-pipe",
+            "program": "${workspaceRoot}/exm07-http-pipe.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Run exm08-http-async",
+            "program": "${workspaceRoot}/exm08-http-async.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Run exm09-telnet",
+            "program": "${workspaceRoot}/exm09-telnet-server.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Run exm10-http-server",
+            "program": "${workspaceRoot}/exm10-http-server.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch",
+            "args": []
+        },
+        {
+            "name": "Run exm10-https-server",
+            "program": "${workspaceRoot}/exm10-https-server.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Run exm11-http-post",
+            "program": "${workspaceRoot}/exm11-http-post.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        },
+        {
+            "name": "Run exm12-json-server",
+            "program": "${workspaceRoot}/exm11-json-server.js",
+            "cwd": "${workspaceRoot}",
+            "type": "node",
+            "request": "launch"
+            //"args": []
+        }
+    ]
+}
