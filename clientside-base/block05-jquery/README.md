@@ -25,7 +25,7 @@ Nosotros trabajaremos con la librería *on-line*, usando una versión simplifica
 </html>
 ```
 ####[jQuery sintax](http://www.w3schools.com/jquery/jquery_syntax.asp)
-Basic syntax is: [$(selector]((http://www.w3schools.com/jquery/jquery_selectors.asp)).action()  
+Basic syntax is: [$(selector)](http://www.w3schools.com/jquery/jquery_selectors.asp).[action()](http://www.w3schools.com/jquery/jquery_ref_events.asp)  
 1. a $ sign to define/access jQuery  
 2. a (selector) to "query (or find)" HTML elements  
 3. a jQuery action() to be performed on the element(s)  
