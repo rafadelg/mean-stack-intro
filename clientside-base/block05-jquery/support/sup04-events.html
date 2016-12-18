@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery events</title>
+    <link rel="stylesheet" href="css/sup04.css"></link>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/sup04-events.js"></script>
+</head>
+
+<body>
+    <h2>Exercise 4 - jQ events:<br>differences between mouseenter(), mouseover(), mouseout, moveleave() and mousemove()</h2>
+    <h3>Sources:<br>
+        <a href="http://www.w3schools.com/jquery/jquery_ref_events.asp" target=_blank title="w3schools jQ References-Events">w3Schools web page</a><br>
+        <a href="http://api.jquery.com/" target=_blank title="jQuery API">jQuery web page</a>
+    </h3>
+    <p>The mouseenter event is only triggered when the mouse pointer enters the div element.<br></p>
+    <p>The mouseleave event is only triggered when the mouse pointer leaves the selected element. </p>
+    <p>The mouseover event triggers when the mouse pointer enters the div element, and its child elements.</p>
+    <p>The mouseout event triggers when the mouse pointer leaves any child elements as well the selected element.</p>
+    <p>The onmousemove event triggers every time the mouse pointer is moved over the div element.</p>
+
+    <div class="enter-and-leave">
+        <span>move your mouse</span>
+        <div class="in">
+        </div> 
+    </div>
+
+    <div class="over">
+        <span>move your mouse</span>
+        <div class="in">
+            <p>Mouseover event triggered: <span  id="idSpanOver"></span></p>
+        </div>  
+    </div>
+
+    <div class="out">
+        <span>move your mouse</span>
+        <div class="in">
+            <p>Mouseout event triggered: <span id="idSpanOut"></span></p>
+        </div>
+    </div>
+
+    <div class="move">
+        <div class="in">
+            <p>Mousemove event triggered: <span></span></p>
+        </div> 
+    </div>
+
+</body>
+
+</html>

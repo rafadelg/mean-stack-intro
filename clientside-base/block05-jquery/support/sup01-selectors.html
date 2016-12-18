@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery selectors</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/sup01-selectors.js"></script>
+</head>
+
+<body>
+    <h2>Exercise 1: jQuery selectors</h1>
+    <h3><a href="http://www.w3schools.com/jquery/jquery_ref_selectors.asp" target=_blank title="w3schools jQ References-Selectors">Source</a></h3>
+
+    <table border="1">
+        <tr>
+            <th>Selector</th>
+            <th>Description</th>
+            <th>Test example</th>
+        </tr>
+        <tr>
+            <td>$("*")</td>
+            <td>Selects all elements in the document, including html, head and body.<br><i>If the * selector is used together with another element, it selects all child elements within the specified element.</i></td>
+            <td><a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_all2" target=_blank title="w3schools jQ Tutorial">Click here</a></td>
+        </tr>
+        <tr>
+            <td>$(this)</td>
+            <td>Selects the current HTML element</td>
+            <td><a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_this" target=_blank title="w3schools jQ Tutorial">Click here</a></td>
+        </tr>
+        <tr>
+            <td>$("elem1,elem2")</td>
+            <td>Selects all elements with the specific <i>element</i> name</td>
+            <td><a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_multiple" target=_blank title="w3schools jQ Tutorial">Click here</a></td>
+        </tr>           
+        <tr>
+            <td>$("#id1, #id2")</td>
+            <td>Selects the elements with the <i>attribute id</i> of an HTML (this one must be unique within a document)</td>
+            <td><a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_id" target=_blank title="w3schools jQ Tutorial">Click here</a></td>
+        </tr>        
+        <tr>
+            <td>$(".class1,.class2")</td>
+            <td>Selects the elements with the specific <i>class</i> name</td>
+            <td><a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_multiple_classes" target=_blank title="w3schools jQ Tutorial">Click here</a></td>
+        </tr>
+        <tr>
+            <td>$("p:first/last")</td>
+            <td>Selects the first or last &ltp&gt element (this one can only select one single element)</td>
+            <td><a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_pfirst" target=_blank title="w3schools jQ Tutorial">Click here</a></td>
+        </tr>
+        <tr>
+            <td>$("ul li:first")</td>
+            <td>Selects the first &ltli&gt element of the first &ltul&gt</td>
+            <td><a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_ullifirst" target=_blank title="w3schools jQ Tutorial">Click here</a></td>
+        </tr>
+        <tr>
+            <td>$("ul li:first-child")</td>
+            <td>Selects the first &ltli&gt element of every &ltul&gt (selects all elements that are the first child of their parent)</td>
+            <td><a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_ullifirstchild" target=_blank title="w3schools jQ Tutorial">Click here1</a><br>
+                <a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_firstchild" target=_blank title="w3schools jQ Tutorial">Click here2</a></td>
+            
+        </tr>
+        <tr>
+            <td>$("[href]")</td>
+            <td>Selects all elements with an <i>href</i> attribute</td>
+            <td><a href="http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_hrefattr" target=_blank title="w3schools jQ Tutorial">Click here</a></td>
+        </tr>
+    </table>
+</body>
+
+</html>

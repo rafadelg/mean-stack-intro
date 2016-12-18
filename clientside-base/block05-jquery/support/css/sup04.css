@@ -1,0 +1,32 @@
+div.out,
+div.over,
+div.move
+{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    background-color: lightgray;
+    float: left;
+}
+
+div.in > p {
+    background-color: white;
+}
+
+div.enter-and-leave {
+    width: 20%;
+    height: 120px;
+    margin: 0 15px;
+    background-color: #d6edfc;
+    float: left;
+  }
+
+div.enter-and-leave > div.in {
+    width: 40%;
+    height: 40%;
+    background-color: #fc0;
+    margin: 10px auto;
+}
