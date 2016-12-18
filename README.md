@@ -1,8 +1,8 @@
-# full-stack-intro
+# web-stack-intro
 ###Batería de ejemplos introductorios de Tecnologías Web
-####Autoría:
-- Ruben Gómez García (autor del código)
-- Rafael Delgado Casanova (autor del código de refuerzo salvo los *fuente* aludidos)
+####Autores:
+- Ruben Gómez García (autor del código, proveniente de https://github.com/kaneproject/mean-stack-intro)
+- Rafael Delgado Casanova (adaptador y autor del código de refuerzo salvo los *fuente* aludidos)
 
 ####Editor de código: [MS Visual Studio Code](https://code.visualstudio.com/)
 ####Tecnologías usadas del lado cliente:
@@ -17,7 +17,7 @@
 ####Tecnologías de base de datos:
 - [mongoDB](https://www.mongodb.com/)
   
-![mean-stack](./images/img01-full-stack.jpg)
+![mean-stack](./images/img01-web-stack.jpg)
 
 ###Aclaraciones
 Las líneas que siguen, son un compendio de información para situar al usuario en un nivel de abstracción, que se entiende necesario, antes de "aterrizar" en el plano operativo.  
