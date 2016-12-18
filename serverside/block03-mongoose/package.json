@@ -1,0 +1,17 @@
+{
+  "name": "ejemplo09-mongoose",
+  "version": "1.0.0",
+  "description": "ejercicios API moongose",
+  "main": "menu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "moongose"
+  ],
+  "author": "rafadelg",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.7.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ejemplo07-nodejs",
+  "version": "1.0.0",
+  "description": "Batería ejemplos nodejs",
+  "main": "ejm01-nodejs-base.js",  //entry point
+  //"directories": { "test": "test" }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rafa delgado",
+  "license": "ISC"
+}

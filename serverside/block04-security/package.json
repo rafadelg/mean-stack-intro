@@ -1,0 +1,22 @@
+{
+  "name": "ejm-security",
+  "version": "1.0.0",
+  "description": "server security",
+  "main": "ejm-security.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.7.2",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-dropbox": "^2.0.0",
+    "passport-http": "^0.3.0"
+  }
+}
