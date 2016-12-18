@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run menu program",
+            "program": "${workspaceRoot}/menu.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run exm01-model",
+            "program": "${workspaceRoot}/exm01-model.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run exm02-schema",
+            "program": "${workspaceRoot}/exm02-schema.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run exm03-middleware-static",
+            "program": "${workspaceRoot}/exm03-middleware-static.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run exm04-a-model",
+            "program": "${workspaceRoot}/exm04-a-model.js",
+            "cwd": "${workspaceRoot}"
+        },
+         {
+            "type": "node",
+            "request": "launch",
+            "name": "Run exm04-b-crud",
+            "program": "${workspaceRoot}/exm04-b-crud.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run exm04-c-validation.js",
+            "program": "${workspaceRoot}/exm04-c-validation.js",
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
