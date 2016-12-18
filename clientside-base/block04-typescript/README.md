@@ -20,7 +20,7 @@ Para entender cómo funciona el entorno, se recomienda manejar los archivos de c
    ├── .vscode  
    │      ├── tasks.json  
    │      └── launch.json  
-   ├── jsEntrada  
+   ├── jsInput  
    │      ├── project-to-migrate1.js  
    │      └── project-to-migrate2.js  
    ├── jsOutput (.js and *.maps* generated files)  
