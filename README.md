@@ -1,4 +1,4 @@
-# mean-stack-intro
+# full-stack-intro
 ###Batería de ejemplos introductorios de Tecnologías Web
 ####Autoría:
 - Ruben Gómez García (autor del código)
@@ -6,10 +6,10 @@
 
 ####Editor de código: [MS Visual Studio Code](https://code.visualstudio.com/)
 ####Tecnologías usadas del lado cliente:
-- [HTML5](http://www.w3schools.com/html/default.asp), [CSS3](http://www.w3schools.com/css/default.asp), [Bootstrap](http://getbootstrap.com/), [JavaScript ES6](http://www.ecma-international.org/ecma-262/6.0/), [Typescript](https://www.typescriptlang.org), [jQuery](https://jquery.com/), [Ajax](http://api.jquery.com/category/ajax/) y [JSON](http://www.json.org/)
+- [HTML5](http://www.w3schools.com/html/default.asp), [CSS3](http://www.w3schools.com/css/default.asp), [Bootstrap](http://getbootstrap.com/), [JavaScript ES6](http://www.ecma-international.org/ecma-262/6.0/), [Typescript](https://www.typescriptlang.org), [jQuery](https://jquery.com/), [Ajax](http://api.jquery.com/category/ajax/)
 - *Front-end framework*: [Angular 2](https://angular.io/)  
 
-####Tecnologías usadas del lado servidor:
+####Tecnologías aplicadas del lado servidor:
 - [nodejs](https://nodejs.org/en/)
 - [expressjs](http://expressjs.com/)
 - [mongoosejs](http://mongoosejs.com/)  
@@ -17,7 +17,7 @@
 ####Tecnologías de base de datos:
 - [mongoDB](https://www.mongodb.com/)
   
-![mean-stack](./images/img01-mean-stack.jpg)
+![mean-stack](./images/img01-full-stack.jpg)
 
 ###Aclaraciones
 Las líneas que siguen, son un compendio de información para situar al usuario en un nivel de abstracción, que se entiende necesario, antes de "aterrizar" en el plano operativo.  
@@ -37,9 +37,9 @@ Citamos algunas, no todas, de las disciplinas que abarca la IS:
 - Tecnologías de recuperación de información
 - Tecnologías de minería de datos y tecnologías de minería de textos  
   
-Por tanto, el problema fundamental al que se enfrenta el programador es la diversidad de tecnologías, su complejidad y cómo éstas se relacionan.  
+Por tanto, el problema fundamental al que se enfrenta el programador es la diversidad de tecnologías, la complejidad inherente (en cada una de ellas) y cómo éstas se relacionan.  
 ###Alcance
-Se circunscribe a las tecnologías de la web y, más concretamente, al desarrollo de apps web SPA sobre el *framework MEAN Stack*; no siendo aquí necesarias cuestiones de usabilidad y rendimiento (que si lo son en apps del mundo real)
+Se circunscribe a las tecnologías de la web y, más concretamente, al desarrollo de apps web SPA; no siendo aquí necesarias cuestiones de usabilidad y rendimiento (que si lo son en apps del mundo real)
 ###Princípios generales de diseño
 ####I. Arquitectura Software basada en capas
 Arquitectura que, desde el punto de vista de su estructura, se basa en capas y, según su topología, es centralizada (jerárquica, multi-capa ó *n-tier* -son una generalización del paradigma cliente/servidor-) donde los componentes del sistema presentan distintos roles [1].  
