@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Ejecutar app",
+            "name": "Run app",
             "type": "node",
             "request": "launch",
             "program": "${workspaceRoot}/app.ts",
@@ -19,10 +19,10 @@
             },
             "console": "internalConsole",
             "sourceMaps": true,
-            "outDir": "${workspaceRoot}/jsSalida"
+            "outDir": "${workspaceRoot}/jsOutput"
         },
         {
-            "name": "Lanzar Chrome sobre localhost -raiz- (puerto de escucha 8080)",
+            "name": "Launch Chrome against localhost (port 8080)",
             "type": "chrome",
             "request": "launch",
             "url": "http://localhost:8080",
@@ -30,26 +30,26 @@
             "webRoot": "${workspaceRoot}"
         },
         {
-            "name": "Lanzar ejemplo01 sobre localhost en Chrome",
+            "name": "Launch web support exercise 1",
             "type": "chrome",
             "request": "launch",
-            "url": "http://localhost:8080/ejemplo01.html",
+            "url": "http://localhost:8080/sup01-interfaz.html",
             "sourceMaps": true,
             "webRoot": "${workspaceRoot}"
         },
         {
-            "name": "Lanzar ejemplo03 sobre localhost en Chrome",
+            "name": "Launch web support exercise 3",
             "type": "chrome",
             "request": "launch",
-            "url": "http://localhost:8080/ejemplo03.html",
+            "url": "http://localhost:8080/sup03-interfaz.html",
             "sourceMaps": true,
             "webRoot": "${workspaceRoot}"
         },
 	    {
-            "name": "Ejecutar ejemplo01",
+            "name": "Run standalone support exercise 1",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/ejemplo01.ts",
+            "program": "${workspaceRoot}/sup01-hiworld.ts",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
@@ -63,14 +63,14 @@
             },
             "console": "internalConsole",
             "sourceMaps": true,
-            "outDir": "${workspaceRoot}/jsSalida",
+            "outDir": "${workspaceRoot}/jsOutput",
             "outFiles": []
         },
 	    {
-            "name": "Ejecutar ejemplo02",
+            "name": "Run standalone support exercise 2",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/ejemplo02.ts",
+            "program": "${workspaceRoot}/sup02-vars.ts",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
@@ -84,14 +84,14 @@
             },
             "console": "internalConsole",
             "sourceMaps": true,
-            "outDir": "${workspaceRoot}/jsSalida"
-            //"outFiles": []
+            "outDir": "${workspaceRoot}/jsOutput",
+            "outFiles": []
         },
 	    {
-            "name": "Ejecutar ejemplo03",
+            "name": "Run standalone support exercise 3",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/ejemplo03.ts",
+            "program": "${workspaceRoot}/sup03-functions.ts",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
@@ -105,13 +105,13 @@
             },
             "console": "internalConsole",
             "sourceMaps": true,
-            "outDir": "${workspaceRoot}/jsSalida"
+            "outDir": "${workspaceRoot}/jsOutput"
         },
 	    {
-            "name": "Ejecutar ejemplo04",
+            "name": "Run standalone support exercise 4",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/ejemplo04.ts",
+            "program": "${workspaceRoot}/sup04-poo.ts",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
@@ -125,13 +125,13 @@
             },
             "console": "internalConsole",
             "sourceMaps": true,
-            "outDir": "${workspaceRoot}/jsSalida"
+            "outDir": "${workspaceRoot}/jsOutput"
         },        
 	    {
-            "name": "Ejecutar ejemplo05",
+            "name": "Run standalone support exercise 5",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/ejemplo05.ts",
+            "program": "${workspaceRoot}/sup05.ts",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
@@ -145,7 +145,7 @@
             },
             "console": "internalConsole",
             "sourceMaps": true,
-            "outDir": "${workspaceRoot}/jsSalida"
+            "outDir": "${workspaceRoot}/jsOutput"
         }
     ]
 }

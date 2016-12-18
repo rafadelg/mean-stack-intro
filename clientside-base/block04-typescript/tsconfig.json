@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "./jsOutput",
+        "sourceMap": true,
+        "removeComments": true,
+        "noImplicitAny": true  // true: forzaría a tipar todas las declaraciones  
+        //"allowJs": true  // usado en proyectos de migración
+    }
+    //"include": [ "./jsInput/**/*" ] // usado en proyectos de migración
+}
+/*
+
+En la actualidad, en el mercado, hay muchos proyectos en JS.
+En algún momento, podríamos encontrarnos el reto de afrontar un proyecto de migración.
+Cuando suceda esto, tendremos q profundizar. Una 1ª aproximación la tenemos en
+https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html
+
+*/

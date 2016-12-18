@@ -4,5 +4,5 @@
 /node_modules
 
 # IDEs and editors
-/jsSalida
+/jsOutput/*.map
 
