@@ -14,7 +14,7 @@
 - [expressjs](http://expressjs.com/)
 - [mongoosejs](http://mongoosejs.com/)  
 
-#####Tecnologías de base de datos:
+####Tecnologías de base de datos:
 - [mongoDB](https://www.mongodb.com/)
   
 ![mean-stack](./images/img01-mean-stack.jpg)
