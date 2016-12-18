@@ -21,8 +21,8 @@
 
 ###Aclaraciones
 Las líneas que siguen, son un compendio de información para situar al usuario en un nivel de abstracción, que se entiende necesario, antes de "aterrizar" en el plano operativo.  
-Para facilitar la lectura, al final, se ha añadido un apdo. de glosario y acrónimos, y otro de referencias. Se recomienda su consulta. Igualmente, se mantienen ciertos términos sin traducir, para no desvirtuarlos.  
-Las recomendaciones que se puedan dar, van orientadas a la utilización óptima de los recursos, las buenas prácticas de programación de acuerdo a sus paradigmas, el cumplimiento de estándares y, no menos importante, la experiencia. Dichas recomendaciones, no deben tomarse como universarles.  
+Para facilitar la lectura, al final, se han añadido dos apdos.: uno de Glosario y acrónimos, otro de Referencias. Se recomienda su consulta. Igualmente, se mantienen ciertos términos sin traducir, para no desvirtuarlos.  
+Las recomendaciones que se puedan dar, van orientadas a la utilización óptima de los recursos, las buenas prácticas de programación, el cumplimiento de estándares, la profundización de conceptos y, no menos importante, la experiencia. Dichas recomendaciones, no deben tomarse como universarles.  
 ###Introducción
 Aunque variadas son las disciplinas en el campo de la Ingeniería de Software, algún grado de relación hay entre ellas. Surge aquí, unos de los primeros conceptos importantes de la IS: acoplamiento.  
 Citamos algunas, no todas, de las disciplinas que abarca la IS:  
