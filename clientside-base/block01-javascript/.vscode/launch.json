@@ -5,7 +5,7 @@
             "name": "Launch app01-vars",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/app01-variables.js",
+            "program": "${workspaceRoot}/app01-vars.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
@@ -22,10 +22,10 @@
             "outFiles": []
         },
         {
-            "name": "Launch app02-tipos",
+            "name": "Launch app02-types",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/app02-tiposDatos.js",
+            "program": "${workspaceRoot}/app02-types.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
@@ -42,10 +42,10 @@
             "outFiles": []
         },
         {
-            "name": "Launch app03-arg-arrays",
+            "name": "Launch app03-params-arrays",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/app03-param-arrays.js",
+            "program": "${workspaceRoot}/app03-params-arrays.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
@@ -62,10 +62,10 @@
             "outFiles": []
         },
         {
-            "name": "Launch app04-POO",
+            "name": "Launch app04-objects",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/app04-objetos.js",
+            "program": "${workspaceRoot}/app04-objects.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
@@ -78,15 +78,6 @@
                 "NODE_ENV": "development"
             },
             "console": "internalConsole",
-            "sourceMaps": false,
-            "outFiles": []
-        },        
-        {
-            "name": "Attach to Process",
-            "type": "node",
-            "request": "attach",
-            "processId": "${command.PickProcess}",
-            "port": 5858,
             "sourceMaps": false,
             "outFiles": []
         }
