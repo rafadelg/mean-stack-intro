@@ -21,8 +21,8 @@ Para entender cómo funciona el entorno, se recomienda manejar los archivos de c
    │      ├── tasks.json  
    │      └── launch.json  
    ├── jsEntrada  
-   │      ├── proyecto-to-migrate1.js  
-   │      └── proyecto-to-migrate2.js  
+   │      ├── project-to-migrate1.js  
+   │      └── project-to-migrate2.js  
    ├── jsOutput (.js and *.maps* generated files)  
    ├── tsconfig.json  
    └── .gitignore  
