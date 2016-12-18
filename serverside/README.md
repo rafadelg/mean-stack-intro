@@ -6,4 +6,4 @@
  - npm install - - save (añadiría los paquetes en "dependencies")  
  - npm install - - save-dev (ídem anterior pero en "devDependencies")  
 - Ignorar ficheros/carpetas innecesarios de guardar en el repositorio.    
- Archivos de configuración: [.gitignore](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files), [.npmignore](https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package)  
+ Archivos de configuración: [.gitignore](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files), [.npmignore](https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package)
