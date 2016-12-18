@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Ejemplo Ferrari - Launch",
+            "name": "Launch Ferrari exercise",
             "type": "chrome",
             "request": "launch",
-            "url": "http://localhost:8080/ejercicio_ferrari.html",
+            "url": "http://localhost:8080/exm-ferrari.html",
             "sourceMaps": true,
             "webRoot": "${workspaceRoot}"
         },
@@ -16,14 +16,6 @@
             "url": "http://localhost:8080",
             "sourceMaps": true,
             "webRoot": "${workspaceRoot}"
-        },
-        {
-            "name": "Attach to Chrome, with sourcemaps",
-            "type": "chrome",
-            "request": "attach",
-            "port": 9222,
-            "sourceMaps": true,
-            "webRoot": "${workspaceRoot}"
-        }     
+        }   
     ]
 }
