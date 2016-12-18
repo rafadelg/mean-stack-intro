@@ -1,13 +1,12 @@
 ##[BOOTSTRAP](http://getbootstrap.com/)
-#####Proceso de instalación para trabajar en local
+####Proceso de instalación para trabajar en local
 1. Ir a: [click here](http://getbootstrap.com/getting-started/#download)
 2. Hacer clic en: "Download Bootstrap"
 3. Descomprimir archivo bajado "bootstrap-3.3.7-dist.zip". Nota: versión 3.3.7 (a 18-12-2016)
 4. Copiar todo su contenido (son 3 carpetas: css, js y fonts) en nuestra carpeta de trabajo  
-	Ejm (Linux): user@user-pc:~/repo/mean-stack-intro/javascript/ejemplo04-bootstrap$ (copiar aquí esas 3 carpetas)  
-Nota:
- - en adelante, en esas mismas carpetas, iremos colocando nuestros propios archivos CSS y JS
- - y, en cada uno de mis archivos HTML, deberemos incluir -al ppio de la cabecera- el código q sigue:
+  
+En adelante, en esas mismas carpetas, iremos colocando nuestros propios archivos CSS y JS y,  
+en cada uno de mis archivos HTML, deberemos incluir -al ppio de la cabecera- el código q sigue:
 
 ```[HTML]
 <!DOCTYPE html>
