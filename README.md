@@ -42,7 +42,7 @@ Por tanto, el problema fundamental al que se enfrenta el programador es la diver
 Se circunscribe a las tecnologías de la web y, más concretamente, al desarrollo de apps web SPA; no siendo aquí necesarias cuestiones de usabilidad y rendimiento (que si lo son en apps del mundo real)
 ###Princípios generales de diseño
 ####I. Arquitectura Software basada en capas
-Arquitectura que, desde el punto de vista de su estructura, se basa en capas y, según su topología, es centralizada (jerárquica, multi-capa ó n-tier *-son una generalización del paradigma cliente/servidor-*), donde los componentes del sistema presentan distintos roles [1].  
+Arquitectura que, desde el punto de vista de su estructura, se basa en capas y, según su topología, es centralizada (jerárquica, multi-capa ó n-tier *-son una generalización del paradigma cliente/servidor-*), donde los componentes del sistema presentan distintos roles [2].  
 ![multi-capa](./images/img02-n-tiers.jpg)
 
 ####II. Diseño *top-down* (de arriba abajo o descendente)
@@ -51,36 +51,37 @@ Orientado al desarrollo de nuevos sistemas, desde su origen, y donde los compone
 
 (1) no confundir aquí el concepto de acoplamiento con el habitualmente empleado en IS.
 ####III. Modelo basado en componentes
-Los componentes se diseñan siguiendo el modelo de AASS basada en subsistemas y añadiendo criterios de SSDD. Consiste en múltiples componentes que encapsulan cierta información. Un componente esta formado por otros componentes, un objeto simple o múltiples objetos. Ofrecen una interfaz (la de los *wrappers*), independiente de la implementación, para comunicarse con otros componentes usando patrones de comunicación [3].  
-Que los componentes sean usados para gestionar el sistema, a parte de reproducir la AASS de apps administradas como un conjunto de componentes, permiten adaptar dinámicamente estas apps a los cambios del entorno [4]. Por tanto, esta característica, contribuye sobremanera a alcanzar otro de los principios fundamentales de la IS: la reutilización.
+Los componentes se diseñan siguiendo el modelo de AASS basada en subsistemas y añadiendo criterios de SSDD. Consiste en múltiples componentes que encapsulan cierta información. Un componente esta formado por otros componentes, un objeto simple o múltiples objetos. Ofrecen una interfaz (la de los *wrappers*), independiente de la implementación, para comunicarse con otros componentes usando patrones de comunicación [4].  
+Que los componentes sean usados para gestionar el sistema, a parte de reproducir la AASS de apps administradas como un conjunto de componentes, permiten adaptar dinámicamente estas apps a los cambios del entorno [5]. Por tanto, esta característica, contribuye sobremanera a alcanzar otro de los principios fundamentales de la IS: la reutilización.
 ###Glosario
 **Acoplamiento**: grado de interdependencia entre dos o más componentes SW o sistemas HW.  
 **App o sistema (en todo el documento)**: se referirá a nuestra aplicación web SPA.  
 **Arquitectura Software (AASS)**: base para una correcta implementación del sistema. Implica la estructuración de sus componentes, cómo éstos interactúan y la estructura propia de datos que usan.  
-Desde el nivel más alto de abstracción, nos situa en el plano estratégico que hace posible alineación negocio/tecnología, estableciendo un puente entre los requisitos y el diseño [5].  
+Desde el nivel más alto de abstracción, nos situa en el plano estratégico que hace posible alineación negocio/tecnología, estableciendo un puente entre los requisitos y el diseño [6].  
 **BBDD (Base de datos)**: Repositorio de almacenaje y estructuración de datos. Garantiza la persistencia de un sistema, eso es, que los datos permanezcan en el tiempo.  
 **Cluster**:  agrupamiento de servidores para aumentar la disponibilidad de servicio de un sistema. Cuando decimos que n-servidores son "clusterizables", es lo mismo que decir n-servidores en alta disponibilidad.  
 *Framework*: entorno estandarizado de trabajo para abordar una problemática concreta, como pueda ser un desarrollo SW o la representación de una AASS.  
 **IS**: Ingeniería de Software. De manera simplona, campo de la informática que se encarga de aquello que no es tangible y, por ende, difícilmente medible; básicamente, el SW. Más formal, podríamos acercanos a la definición de la IEEE: "*aplicación de una estrategia sistemática, planificada y controlable (en lo posible) para el desarrollo, explotación y mantenimiento del software.*"  
 **IPO**: (interacción persona-ordenador). Proceso de diseño de sistemas interactivos centrados en el usuario.  
-**SPA** (*Single-page application*): interfaz web de página única, compuesta de componentes individuales, modificables y/o sustituibles y, por consiguiente, evita la renderización a cada interacción del usuario con la app [6]. Lectura complementaria [7]  
-**SSDD**: sistema o entorno de computación distribuido. Conjunto de computadores, interconectados mediante una red, que comparten un estado global y parecen ser usados como un único sistema (ofrecen una visión de sistema único, *Single System Image o SSI*). [8]  
+**SPA** (*Single-page application*): interfaz web de página única, compuesta de componentes individuales, modificables y/o sustituibles y, por consiguiente, evita la renderización a cada interacción del usuario con la app [7]. Lectura complementaria [8]  
+**SSDD**: sistema o entorno de computación distribuido. Conjunto de computadores, interconectados mediante una red, que comparten un estado global y parecen ser usados como un único sistema (ofrecen una visión de sistema único, *Single System Image o SSI*). [9]  
 **Sistema heredado**: sistema fundamental para la organización, creado hace tiempo, al que se han ido adaptando otros a su alrededor (monolítico/inextensible) y que, en la actualidad, se usa en un contexto distinto para el que fue diseñado.  
-**Usabilidad**: orientada a que el usuario tenga facilidad en el manejo de la app (con ausencia de incomodidad) y un elevado grado de satisfacción. [9]  
+**Usabilidad**: orientada a que el usuario tenga facilidad en el manejo de la app (con ausencia de incomodidad) y un elevado grado de satisfacción. [10]  
 *Wrapper*: usados en procesos de integración como bloques de contrucción básicos (*building blocks*). Elemento que proporciona una puerta de entrada a la app con la que se pretende interactuar. El acceso puede ser: a través de una interfaz (vía API “programática”), atacando directamente a la BBDD de la app, o bien, a través de una tabla de servicios proporcionada por la propia app.  
 ###Referencias
 Se recogen a modo de citas, siguiendo la guía de estilo y especificaciones de la asociación IEEE.  
   
 [0] T. Garsiel, "How browsers work [on-line]", Tali Garsiel's site, accedido en oct. 2016, disponible [aquí](http://taligarsiel.com/Projects/howbrowserswork1.htm)  
-[1] J.M. Martín Ramos, "Tema 1. Introducción a los SSDD", Apuntes asignatura SSDD, Dpto. de TI de la ETSI, UHU, 2014.  
-[2] G. Alonso, "Chapter 1: Distributed Information Systems [on-line]", Swiss Federal Institute of Technology, acceso jun. 2014, disponible [aquí](http://www.inf.ethz.ch/personal/alonso/teaching.html)  
-[3] A.J. Suárez Fábrega, "Tema 1: AASS basada en componentes", Apuntes asignatura ASDM, Dpto. de TI de la ETSI, UHU, 2014.  
-[4] S. Sicard, F. Boyer and N. De Palma, "Using Components for Architecture-Based Management: The Self-Repair case." in *Proc. Int’l Conference on Software Engineering (ICSE)*, 2008.  
-[5] D. Garlan "From Software Programming to Software Engineering" in *I Congreso internacional de Ingeniería de software para Grandes corporaciones*, Huelva, 2013.  
-[6] A. Mesbah and A. van Deursen, "Migrating multi-page web apps to single-page ajax interfaces." in Delft University of Technology, Technical Rep., TUD-SERG-2006-018 2nd rev., pp. 1, 2006.  
-[7] M.A. Álvarez Sánchez, "Qué es una SPA [on-line]", DesarrolloWeb.com web page, accedido en dic. 2016, disponible [aquí](http://www.desarrolloweb.com/articulos/que-es-una-spa.html)  
-[8] J.M. Martín Ramos, "Tema 2. Arquitectura de los SSDD", Apuntes asignatura SSDD, Dpto. de TI de la ETSI, UHU, 2014.  
-[9] N. Pavón Pulido, "Tema 1: IPO", Apuntes asignatura Diseño de Interfaces de usuario, Dpto. de TI de la ETSI, UHU, 2013.  
+[1] "MongoDB 3.4 Architecture Guide [on-line]", MongoDB Inc., Nov. 2016, accedido en nov. 2016, disponible [aquí](https://www.mongodb.com/mongodb-architecture)  
+[2] J.M. Martín Ramos, "Tema 1. Introducción a los SSDD", Apuntes asignatura SSDD, Dpto. de TI de la ETSI, UHU, 2014.  
+[3] G. Alonso, "Chapter 1: Distributed Information Systems [on-line]", Swiss Federal Institute of Technology, acceso jun. 2014, disponible [aquí](http://www.inf.ethz.ch/personal/alonso/teaching.html)        
+[4] A.J. Suárez Fábrega, "Tema 1: AASS basada en componentes", Apuntes asignatura ASDM, Dpto. de TI de la ETSI, UHU, 2014.  
+[5] S. Sicard, F. Boyer and N. De Palma, "Using Components for Architecture-Based Management: The Self-Repair case." in *Proc. Int’l Conference on Software Engineering (ICSE)*, 2008.  
+[6] D. Garlan "From Software Programming to Software Engineering" in *I Congreso internacional de Ingeniería de software para Grandes corporaciones*, Huelva, 2013.  
+[7] A. Mesbah and A. van Deursen, "Migrating multi-page web apps to single-page ajax interfaces." in Delft University of Technology, Technical Rep., TUD-SERG-2006-018 2nd rev., pp. 1, 2006.  
+[8] M.A. Álvarez Sánchez, "Qué es una SPA [on-line]", DesarrolloWeb.com web page, accedido en dic. 2016, disponible [aquí](http://www.desarrolloweb.com/articulos/que-es-una-spa.html)  
+[9] J.M. Martín Ramos, "Tema 2. Arquitectura de los SSDD", Apuntes asignatura SSDD, Dpto. de TI de la ETSI, UHU, 2014.  
+[10] N. Pavón Pulido, "Tema 1: IPO", Apuntes asignatura Diseño de Interfaces de usuario, Dpto. de TI de la ETSI, UHU, 2013.  
 
 
 
