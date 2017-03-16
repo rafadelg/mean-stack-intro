@@ -1,11 +1,11 @@
 # web-stack-intro
-###Batería de ejemplos introductorios de Tecnologías Web
-####Autores:
+### Batería de ejemplos introductorios de Tecnologías Web  
+#### Autores:  
 - Ruben Gómez García (autor del código, proveniente de https://github.com/kaneproject/mean-stack-intro)
 - Rafael Delgado Casanova (adaptador y autor del código de refuerzo salvo los *fuente* aludidos)
 
-####Editor de código: [MS Visual Studio Code](https://code.visualstudio.com/)
-####Tecnologías usadas del lado cliente:
+#### Editor de código: [MS Visual Studio Code](https://code.visualstudio.com/)  
+#### Tecnologías usadas del lado cliente:  
 - [HTML5](http://www.w3schools.com/html/default.asp), [CSS3](http://www.w3schools.com/css/default.asp), [Bootstrap](http://getbootstrap.com/), [JavaScript ES6](http://www.ecma-international.org/ecma-262/6.0/), [Typescript](https://www.typescriptlang.org), [jQuery](https://jquery.com/), [Ajax](http://api.jquery.com/category/ajax/)
 - *Front-end framework*: [Angular 2](https://angular.io/)  
 
@@ -14,16 +14,16 @@
 - [expressjs](http://expressjs.com/)
 - [mongoosejs](http://mongoosejs.com/)  
 
-####Tecnologías de base de datos:
+#### Tecnologías de base de datos:
 - [mongoDB](https://www.mongodb.com/)
   
 ![mean-stack](./images/img01-web-stack.jpg)
 
-###Aclaraciones
+### Aclaraciones  
 Las líneas que siguen, son un compendio de información para situar al usuario en un nivel de abstracción, que se entiende necesario, antes de "aterrizar" en el plano operativo.  
 Para facilitar la lectura, al final, se han añadido dos apdos.: uno de Glosario y acrónimos, otro de Referencias. Se recomienda su consulta. Igualmente, se mantienen ciertos términos sin traducir, para no desvirtuarlos.  
 Las recomendaciones que se puedan dar, van orientadas a la utilización óptima de los recursos, las buenas prácticas de programación, el cumplimiento de estándares, la profundización de conceptos y, no menos importante, la experiencia. Dichas recomendaciones, no deben tomarse como universarles.  
-###Introducción
+### Introducción  
 Aunque variadas son las disciplinas en el campo de la Ingeniería de Software, algún grado de relación hay entre ellas. Surge aquí, unos de los primeros conceptos importantes de la IS: acoplamiento.  
 Citamos algunas, no todas, de las disciplinas que abarca la IS:  
 - **Tecnologías de la web (donde nos centraremos)**
@@ -38,22 +38,22 @@ Citamos algunas, no todas, de las disciplinas que abarca la IS:
 - Tecnologías de minería de datos y tecnologías de minería de textos  
   
 Por tanto, el problema fundamental al que se enfrenta el programador es la diversidad de tecnologías, la complejidad inherente (en cada una de ellas) y cómo éstas se relacionan.  
-###Alcance
+### Alcance  
 Se circunscribe a las tecnologías de la web y, más concretamente, al desarrollo de apps web SPA; no siendo aquí necesarias cuestiones de usabilidad y rendimiento (que si lo son en apps del mundo real)
-###Princípios generales de diseño
-####I. Arquitectura Software basada en capas
+### Princípios generales de diseño  
+#### I. Arquitectura Software basada en capas  
 Arquitectura que, desde el punto de vista de su estructura, se basa en capas y, según su topología, es centralizada (jerárquica, multi-capa ó n-tier *-son una generalización del paradigma cliente/servidor-*), donde los componentes del sistema presentan distintos roles [2].  
 ![multi-capa](./images/img02-n-tiers.jpg)
 
-####II. Diseño *top-down* (de arriba abajo o descendente)
+#### II. Diseño *top-down* (de arriba abajo o descendente)  
 Orientado al desarrollo de nuevos sistemas, desde su origen, y donde los componentes no actúan de manera aislada. Como podemos observar, los componentes, aún siendo independientes, tienen un alto grado de cohesión o acoplamiento funcional (1); es decir, parte de un elevado grado de homogeneidad pues el sistema se diseña para ser distribuido desde el inicio. Diferencia ésta, frente al enfoque *bottom-up*, aplicable cuando los sistemas ya existen, son estancos, y no puedan ser reemplazados con facilidad (sistemas *legacy* o heredados)  
 ![descendente](./images/img03-top-down.jpg)
 
 (1) no confundir aquí el concepto de acoplamiento con el habitualmente empleado en IS.
-####III. Modelo basado en componentes
+#### III. Modelo basado en componentes  
 Los componentes se diseñan siguiendo el modelo de AASS basada en subsistemas y añadiendo criterios de SSDD. Consiste en múltiples componentes que encapsulan cierta información. Un componente esta formado por otros componentes, un objeto simple o múltiples objetos. Ofrecen una interfaz (la de los *wrappers*), independiente de la implementación, para comunicarse con otros componentes usando patrones de comunicación [4].  
 Que los componentes sean usados para gestionar el sistema, a parte de reproducir la AASS de apps administradas como un conjunto de componentes, permiten adaptar dinámicamente estas apps a los cambios del entorno [5]. Por tanto, esta característica, contribuye sobremanera a alcanzar otro de los principios fundamentales de la IS: la reutilización.
-###Glosario
+### Glosario  
 **Acoplamiento**: grado de interdependencia entre dos o más componentes SW o sistemas HW.  
 **App o sistema (en todo el documento)**: se referirá a nuestra aplicación web SPA.  
 **Arquitectura Software (AASS)**: base para una correcta implementación del sistema. Implica la estructuración de sus componentes, cómo éstos interactúan y la estructura propia de datos que usan.  
