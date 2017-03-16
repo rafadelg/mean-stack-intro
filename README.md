@@ -9,7 +9,7 @@
 - [HTML5](http://www.w3schools.com/html/default.asp), [CSS3](http://www.w3schools.com/css/default.asp), [Bootstrap](http://getbootstrap.com/), [JavaScript ES6](http://www.ecma-international.org/ecma-262/6.0/), [Typescript](https://www.typescriptlang.org), [jQuery](https://jquery.com/), [Ajax](http://api.jquery.com/category/ajax/)
 - *Front-end framework*: [Angular 2](https://angular.io/)  
 
-####Tecnologías aplicadas del lado servidor:
+#### Tecnologías aplicadas del lado servidor:  
 - [nodejs](https://nodejs.org/en/)
 - [expressjs](http://expressjs.com/)
 - [mongoosejs](http://mongoosejs.com/)  
