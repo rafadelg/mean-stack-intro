@@ -1,5 +1,4 @@
-####APUNTES
-#####ORGANIZACIÓN DE RUTAS, ENRUTAMTO
+### ORGANIZACIÓN DE RUTAS (ENRUTAMTO)
 
 Parametrización paths/url's (proceso de enrutanmto)  
 a) base path (index), vía:  
@@ -15,8 +14,8 @@ Se trata de un proceso previo a la respuesta (antes de servir la petición), ejm
 - Auditoría (logs)
 - Atenticación (login)
 - acceso a datos (bbdd): procesamto previo  
-- Monitorización: https://expressjs.com/en/advanced/pm.html
-NOTA: abstraerse de las posibles utilidades; variopintas.. (entender bien "que/como"; el concepto)
+- Monitorización: https://expressjs.com/en/advanced/pm.html  
+NOTA: abstraerse de las posibles utilidades; variopintas.. (entender bien "qué/cómo"; el concepto)
  
 a) por url / petición  
    next(); para concatenación de manejadores/funciones, se coloca al final de la funcion  
@@ -33,6 +32,7 @@ c) Definir un objeto router (no se indica ruta alguna): express.Router();
 ¿compete al router?  
 - si: lo trato (error controlado)  
 - no: no hago nada. 
- - si es del cte; q se propague al cte  (indicándole, únicamte, q algo ha ido mal
- - si es de la bd; q se propague a la bbdd  
+    - si es del cte; q se propague al cte  (indicándole, únicamte, q algo ha ido mal  
+    - si es de la bd; q se propague a la bbdd  
+
   
