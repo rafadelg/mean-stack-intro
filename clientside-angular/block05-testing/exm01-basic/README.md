@@ -1,4 +1,4 @@
-# EjmTestingAngular
+## EjmTestingAngular
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
@@ -10,8 +10,8 @@ other component
 otherprovider component
 - add usermanagement service (work with user array)
 - check rendering data coming from service
-- [external] add mock usermanagement service (testing heavy/complex functionality of usermanagement service)
-TODO:
+- [external] add mock usermanagement service (testing heavy/complex functionality of usermanagement service)  
+TODO:  
 - override component
 - apply to sorting (curse exercise)
 

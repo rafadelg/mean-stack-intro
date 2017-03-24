@@ -1,5 +1,5 @@
-##[BOOTSTRAP](http://getbootstrap.com/)
-###Proceso de instalación para trabajar en local
+## [BOOTSTRAP](http://getbootstrap.com/)
+### Proceso de instalación para trabajar en local  
 1. Ir a: [click here](http://getbootstrap.com/getting-started/#download)
 2. Hacer clic en: "Download Bootstrap"
 3. Descomprimir archivo bajado "bootstrap-3.3.7-dist.zip". Nota: versión 3.3.7 (a 18-12-2016)

@@ -1,4 +1,4 @@
-###Gestión de paquetes
+### Gestión de paquetes
 - Global (todo el sistema), vía *npm -g install*  
 - Local (carpetas de usuario), vía *package.json*  
   1º Crear el archivo -> npm init  
